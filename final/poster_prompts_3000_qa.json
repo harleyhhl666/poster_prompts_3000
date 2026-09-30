@@ -1,0 +1,485 @@
+{
+ "summary": {
+  "review_defect_tampered": 61,
+  "exact_dup_prompts": 0,
+  "near_dup_pairs_gt_0.85": 4
+ },
+ "stats": {
+  "n_rows": 3000,
+  "n_groups": 1000,
+  "variant": {
+   "clean": 1000,
+   "subtle": 1000,
+   "strong": 1000
+  },
+  "super_category": {
+   "商业广告": 720,
+   "活动宣传": 450,
+   "公益海报": 420,
+   "食品标签": 930,
+   "保健品说明": 480
+  },
+  "n_sub_category": 101,
+  "density": {
+   "Very High": 1898,
+   "High": 1085,
+   "Medium": 17
+  },
+  "aspect": {
+   "4:5": 447,
+   "9:16": 702,
+   "4:3": 363,
+   "3:4": 831,
+   "16:9": 528,
+   "1:1": 129
+  },
+  "realism": {
+   "phone": 465,
+   "scene": 723,
+   "flat": 930,
+   "studio": 882
+  },
+  "unique_brands": 994,
+  "unique_products": 952,
+  "unique_archetypes": 206,
+  "prompt_len": {
+   "min": 771,
+   "max": 1995,
+   "mean": 1339
+  },
+  "similarity_clean_quoted_text": {
+   "商业广告": {
+    "pairs_checked": 3000,
+    "median": 0.646,
+    "p99": 0.746,
+    "max": 0.798
+   },
+   "活动宣传": {
+    "pairs_checked": 3000,
+    "median": 0.495,
+    "p99": 0.74,
+    "max": 0.865
+   },
+   "公益海报": {
+    "pairs_checked": 3000,
+    "median": 0.355,
+    "p99": 0.658,
+    "max": 0.805
+   },
+   "食品标签": {
+    "pairs_checked": 3000,
+    "median": 0.647,
+    "p99": 0.742,
+    "max": 0.807
+   },
+   "保健品说明": {
+    "pairs_checked": 3000,
+    "median": 0.619,
+    "p99": 0.795,
+    "max": 0.854
+   }
+  },
+  "tamper_by_variant": {
+   "agenda_time_conflict|strong": 51,
+   "agenda_time_conflict|subtle": 23,
+   "allergen_deletion|strong": 159,
+   "allergen_deletion|subtle": 113,
+   "approval_number_tamper|strong": 30,
+   "approval_number_tamper|subtle": 15,
+   "batch_number_tamper|strong": 53,
+   "batch_number_tamper|subtle": 13,
+   "claim_nutrition_conflict|strong": 113,
+   "claim_nutrition_conflict|subtle": 49,
+   "contact_info_tamper|strong": 61,
+   "contact_info_tamper|subtle": 29,
+   "efficacy_exaggeration|strong": 206,
+   "efficacy_exaggeration|subtle": 124,
+   "event_date_tamper|strong": 94,
+   "event_date_tamper|subtle": 58,
+   "health_fact_tamper|strong": 74,
+   "health_fact_tamper|subtle": 41,
+   "hidden_fee_condition|strong": 90,
+   "hidden_fee_condition|subtle": 43,
+   "ingredient_order_tamper|strong": 186,
+   "ingredient_order_tamper|subtle": 115,
+   "manufacturer_info_tamper|strong": 76,
+   "manufacturer_info_tamper|subtle": 27,
+   "misinformation_insertion|strong": 75,
+   "misinformation_insertion|subtle": 46,
+   "nutrition_value_tamper|strong": 98,
+   "nutrition_value_tamper|subtle": 43,
+   "price_tamper|strong": 114,
+   "price_tamper|subtle": 63,
+   "product_attribute_tamper|strong": 109,
+   "product_attribute_tamper|subtle": 34,
+   "production_date_tamper|strong": 176,
+   "production_date_tamper|subtle": 96,
+   "promotion_date_tamper|strong": 66,
+   "promotion_date_tamper|subtle": 39,
+   "promotion_rule_tamper|strong": 97,
+   "promotion_rule_tamper|subtle": 37,
+   "quantity_tamper|strong": 97,
+   "quantity_tamper|subtle": 39,
+   "quota_contradiction|strong": 87,
+   "quota_contradiction|subtle": 39,
+   "shelf_life_tamper|strong": 198,
+   "shelf_life_tamper|subtle": 107,
+   "source_attribution_tamper|strong": 63,
+   "source_attribution_tamper|subtle": 17,
+   "standard_number_tamper|strong": 77,
+   "standard_number_tamper|subtle": 30,
+   "storage_condition_tamper|strong": 8,
+   "storage_condition_tamper|subtle": 5,
+   "target_population_tamper|strong": 88,
+   "target_population_tamper|subtle": 35,
+   "unsubstantiated_claim|strong": 31,
+   "unsubstantiated_claim|subtle": 9,
+   "venue_tamper|strong": 61,
+   "venue_tamper|subtle": 33,
+   "warning_deletion|strong": 169,
+   "warning_deletion|subtle": 83
+  },
+  "semantic_inconsistency_by_variant": {
+   "strong|batch_date_mismatch": 142,
+   "strong|date_shelf_expiry_mismatch": 40,
+   "strong|energy_inconsistent": 45,
+   "strong|nrv_mismatch": 98,
+   "subtle|batch_date_mismatch": 96,
+   "subtle|date_shelf_expiry_mismatch": 107,
+   "subtle|energy_inconsistent": 4,
+   "subtle|nrv_mismatch": 10,
+   "subtle|unit_wrong": 6,
+   "subtle|weekday_wrong": 37
+  },
+  "review_defect_counts": {
+   "multi_city": 61
+  }
+ },
+ "findings": {
+  "review_defect_tampered": [
+   [
+    "P000030",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000078",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000105",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000144",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000159",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000231",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000234",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000258",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000285",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000351",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000411",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000504",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000516",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000534",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000573",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000681",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000711",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000735",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000837",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000864",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000900",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000912",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000921",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001008",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001032",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001209",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001272",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001395",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001425",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001455",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001461",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001464",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001473",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001497",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001620",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001707",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001728",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001731",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001743",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001758",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001869",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001923",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001959",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P001980",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002172",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002181",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002205",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002220",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002238",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P002370",
+    [
+     "multi_city"
+    ]
+   ]
+  ],
+  "exact_dup_prompts": [],
+  "near_dup_pairs_gt_0.85": [
+   [
+    "G0498",
+    "G0934",
+    0.865
+   ],
+   [
+    "G0418",
+    "G0977",
+    0.853
+   ],
+   [
+    "G0173",
+    "G0418",
+    0.854
+   ],
+   [
+    "G0045",
+    "G0536",
+    0.852
+   ]
+  ]
+ }
+}

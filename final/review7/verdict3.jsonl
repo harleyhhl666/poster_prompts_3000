@@ -1,0 +1,25 @@
+{"id": "P001620", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000687", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000251", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002783", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002358", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000783", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000791", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Tamper cue is placed in a slot that doesn't exist on this carrier: 「另在背面条形码上方小字重复标示批准文号「食健备G202434007358」」, but the carrier is a single-sided pharmacy poster, and no back side or barcode is described anywhere. The model has to invent a barcode area or may drop the second number, which would remove the anomaly."], "severity": "minor"}
+{"id": "P001856", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Per-tablet mass doesn't add up: 1.0g tablet with 蛋白质0.1g+脂肪0.1g+碳水0.7g plus 钙102mg (≈255mg 碳酸钙) ≈1.15g > 1.0g (pedantic)."], "severity": "minor"}
+{"id": "P001173", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Generic preparation copy mentions a container this product doesn't have: 「杯装撕开杯盖、袋装倒入碗中」, but the product is 35g×14袋 sachets only.", "「—反式脂肪｜0.8 g」 per 100g is high, though plausible with 氢化植物油 (cosmetic)."], "severity": "minor"}
+{"id": "P001013", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002205", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002131", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002898", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Price copy is arithmetically incoherent beyond the intended anomaly: 「¥2.90为第3件加购价，需同时购买2件原价商品，单件实付最低¥8.90」. Two items at ¥8.90 plus one at ¥2.90 averages ¥6.90, so 'lowest per-item ¥8.90' makes no sense. A third, unexplained activity price 「按活动价¥6.20结算」 also sits in the rules and never appears in the price block. The hidden-condition anomaly is still present."], "severity": "minor"}
+{"id": "P002608", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002614", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002715", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000574", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001157", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001567", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000562", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000020", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000298", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000083", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001164", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000897", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Nutrition table is per 「每小包（10g）」, but the spec gives only 「规格：200g」 and never states the pack breakdown (e.g. 10g×20小包), so serving vs pack net is unspecified."], "severity": "minor"}

@@ -1,0 +1,25 @@
+{"id": "P000903", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002495", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001868", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Fee line 「报名费¥29/人…」 also contradicts two other 须知 lines (「讲座全程不收取任何费用」, 「…不收取任何费用。」) in the same list, which makes a 'subtle' tamper fairly blatant; acceptable"], "severity": "minor"}
+{"id": "P001606", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「到手价 ¥311.00」 for 450g whey (15×30g) is on the high side but plausible"], "severity": "minor"}
+{"id": "P000914", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001014", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002014", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「牛磺酸添加量≥1%」 (≥1g/100mL) is implausibly high for a taurine drink (real ~0.05%; GB 14880 limit 0.1–0.5g/kg)", "Caffeinated functional drink lacks the usual 「不适宜儿童、孕妇及对咖啡因敏感者」 note; only 「适宜人群：成年人」", "Style 「红黄对比色块」 clashes with the main palette 「嫩绿色与白色…浅黄色」"], "severity": "minor"}
+{"id": "P000515", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001252", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Unintended contradiction in a clean prompt: spec 「规格40g/袋×10袋」 and 「取1袋加入500mL水」, but the nutrition header is 「每袋20g」 (energy 320kJ = 18.8g carbohydrate × 17, i.e. per 20g)"], "severity": "major"}
+{"id": "P000907", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000669", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Registration number 「国食健注G02568717」 does not follow the real G+year(4 digits)+4 digits format (e.g. G2023xxxx); the tamper intends only a 注册号 format, so this makes it look malformed"], "severity": "minor"}
+{"id": "P002601", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Title 「益恒健康健康生活大讲堂」 repeats 健康; venue 「万象汇购物中心酒店会议室」 reads oddly"], "severity": "minor"}
+{"id": "P001538", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002159", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Intended manufacturer_info_tamper is missing: tamper_details say the address was changed to 「福建省晋江市龙海区兴园大道613号」 against manufacturer/产地 漳州市, but the prompt has an imported Korean product with 「地址：上海市金山区经济开发区梧桐路747号」 and no 晋江/漳州 text anywhere", "Allergen deletion is present (生牛乳、全脂乳粉、酪蛋白酸钠 with no allergen statement)"], "severity": "major"}
+{"id": "P002130", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001139", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000708", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Order contradiction (全麦粉 listed first but only 「≥30%」) needs inference to detect, since 小麦粉 could in principle be <30%; weak but acceptable"], "severity": "minor"}
+{"id": "P001240", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Tag 「限200名」 sits awkwardly with 「无需报名，现场签到即可参加」 for an open-air market event"], "severity": "minor"}
+{"id": "P002029", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style 「复古牛皮纸风」 conflicts with palette 「嫩绿色与白色为主」"], "severity": "minor"}
+{"id": "P000510", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001623", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002602", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002106", "generatable": false, "realistic": true, "tamper_ok": false, "defects": ["standard_number_tamper is not really an anomaly: 「GB 7101-2022」 (beverage standard) actually fits a 果蔬发酵饮品 labelled 「【产品类型】饮品」, so the intended mismatch is not present", "Carrier conflict: the image shows only a leaflet (「本图只展示说明书，不出现包装实物」), but the prompt asks for 「包装底部边缘有一行黑色点阵喷码」, so the spray-code anomaly has no package to sit on and may be dropped or misplaced"], "severity": "major"}
+{"id": "P000011", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002839", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

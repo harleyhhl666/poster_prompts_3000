@@ -1,0 +1,25 @@
+{"id": "P002990", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000006", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002437", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000238", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Title product 「儿童鳕鱼肉酥」 lists 「鸡肉」 as first ingredient with 「鳕鱼肉添加量≥8%」 at 5th position — legal/realistic but could be read as a naming mismatch (pedantic)"], "severity": "minor"}
+{"id": "P002133", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001225", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Allergen wording 「本产品含有燕麦、乳制品」 — conventional phrasing would be 含麸质谷物（燕麦）; cosmetic"], "severity": "minor"}
+{"id": "P001377", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000280", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001745", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Phone tamper is weak: 「投诉举报电话：024-81789030」 vs 「报名电话：024-81789033」 are different-purpose fields, so a differing number is not inherently contradictory (and body text says 「投诉举报请拨打12315」); the 30 vs 50 名额 anomaly carries detectability"], "severity": "minor"}
+{"id": "P002220", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000097", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000570", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002951", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Realism: footer 「扫码参与营养周线上知识竞答」 but event is 2027年3月15日; 全民营养周 is held in mid-May"], "severity": "minor"}
+{"id": "P001471", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Unintended contradiction in clean prompt: agenda 「10:00—14:00｜会员积分翻倍」 (2x, time-limited) vs benefit card 「会员购物积分3倍」 (3x, no time limit)"], "severity": "major"}
+{"id": "P000953", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001819", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002865", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000564", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000017", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Copy tamper 「螺蛳熬汤，满满营养精华」 is very mild exaggeration; detectability relies mainly on missing 大豆 (腐竹) allergen"], "severity": "minor"}
+{"id": "P001175", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002423", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002888", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001309", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Jelly warning is redundant: 「学龄前儿童须在成人监护下食用；老人儿童须监护下食用」 (cosmetic)"], "severity": "minor"}
+{"id": "P001918", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001603", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Manufacturer 「佛山嘉乐蜂业有限公司」 (bee-products company) producing hard candy is slightly odd (cosmetic)"], "severity": "minor"}

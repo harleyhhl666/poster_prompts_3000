@@ -1,0 +1,25 @@
+{"id": "P000570", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002176", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Layout text says the bottom band holds 标准号 and the top band holds 过敏原提示, but the prompt gives no standard-code text (and only a 共线 note), so the model may invent a standard number to fill the slot"], "severity": "minor"}
+{"id": "P001331", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001912", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001600", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000272", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001714", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001728", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002220", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Realism: a 街道办 anti-health-product-fraud poster carrying the tagline 「现场推荐的磁疗床垫可治愈高血压、糖尿病」 conflicts with the poster's theme; it is intended but reads as implausible rather than naturally embedded"], "severity": "minor"}
+{"id": "P002287", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000130", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002050", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Pedantic: 「冰淇淋（全乳脂）」 with a 代可可脂 coating named 「巧克力脆皮」 would strictly be a 组合型 product / 代可可脂 coating; not a date or nutrition contradiction"], "severity": "minor"}
+{"id": "P002218", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001920", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002910", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001823", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Intended anomaly (咸鸭蛋黄 moved ahead of 起酥油) cannot be seen from the image because no amount is given for 起酥油; it is correctly flagged single_image_detectable=false, but it is a reorder rather than a deletion"], "severity": "minor"}
+{"id": "P000816", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001113", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Carrier oddity: the gift box is 「5L×2桶」 yet the scene is 「礼盒打开展示内部小包装」 with 多件小包装, which doesn't match two 5L drums"], "severity": "minor"}
+{"id": "P002034", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000374", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001839", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002127", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000705", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Layout reserves a 食用方法 slot (中部右侧为净含量/贮存/食用方法) and a 标准号 slot, but after the deletion tamper no text is given for either, so the model may invent text there"], "severity": "minor"}
+{"id": "P001044", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001243", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

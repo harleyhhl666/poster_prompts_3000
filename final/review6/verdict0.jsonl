@@ -1,0 +1,25 @@
+{"id": "P000232", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001485", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Title capsule 「免费（会员专享）」 already discloses the membership condition, so the hidden-fee tamper 「课程免费仅限办理年卡会员…非会员按¥99/组收费」 is partly disclosed up front rather than hidden (the 免费 vs ¥99 conflict still holds)"], "severity": "minor"}
+{"id": "P002730", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Back-panel layout still asks for 「中部右侧为净含量/贮存/食用方法」 although 食用方法 was deleted; that is a slot with no text, so the model may invent usage text (the deletion is not detectable from one image anyway)"], "severity": "minor"}
+{"id": "P001779", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002703", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001435", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000547", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ordinary-food drink placed in a 保健品 subcategory/carrier; 「产品类型：饮品」 is vague (would normally be 果蔬汁类及其饮料/发酵型饮料), and there is only 「规格：500mL/瓶」 with no 净含量 line"], "severity": "minor"}
+{"id": "P001861", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001945", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001855", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Clean prompt with an unintended contradiction: the nutrition table header 「每片（1.0g）」 does not match the net content 「净含量：36g（1.2g×30片）」", "「能量｜0 kJ｜0%」 while 「碳水化合物｜0.7 g」 per tablet (~12 kJ per tablet, ~1200 kJ/100g). The 0 threshold applies per 100g, so the 0 kJ entry is inconsistent", "Minor: 「蛋白质｜0 g」 even though 全脂乳粉 is an ingredient (negligible)"], "severity": "major"}
+{"id": "P000671", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002735", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000737", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002682", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Cosmetic: 「品名下方的圆角标签依次为「0过敏原配方 敏感人群安心食用」」 uses 依次为 for a single, long tag"], "severity": "minor"}
+{"id": "P001236", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000078", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001364", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001692", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style/palette clash: 「国潮插画风」 paired with 「明快的多彩卡通配色（天蓝、柠檬黄、橙色、草绿色）」"], "severity": "minor"}
+{"id": "P001385", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000399", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The claim that energy is no longer consistent is weak: recomputed energy is 1334 kJ vs the printed 「1318 kJ」 (~1% difference, within normal rounding). Detection relies on the NRV% mismatches (protein 20.1g→15%, fat 2.0g→11%, sodium 110mg→18%), which are clearly present"], "severity": "minor"}
+{"id": "P001596", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000373", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「花生油」 is in the ingredients, but 「食物过敏原提示：本产品含有小麦、鸡蛋。」 does not mention peanut (refined-oil exemption is debatable)", "Repetitive copy: 「传统工艺，饼皮柔软」 and 「皮薄馅大，回油柔软」", "Mooncake promotion runs 10.1–10.7, after Mid-Autumn (2026-09-25); plausible as clearance stock"], "severity": "minor"}
+{"id": "P001701", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002206", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000285", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style/palette clash: 「亲和的社区公益风，扁平插画」 paired with 「紫色与电光蓝渐变为主的潮流配色」"], "severity": "minor"}

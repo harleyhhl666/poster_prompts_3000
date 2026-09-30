@@ -1,0 +1,25 @@
+{"id": "P001559", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002606", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002955", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Strong variant does not strictly extend its subtle sibling P002954: subtle's inserted misinformation 「无糖食品不升血糖，可以不限量吃」 is absent; strong instead inserts a different line 「每天喝南瓜汤就能降血糖，胰岛素可以停了」 (dataset-structure issue, anomalies themselves present)"], "severity": "minor"}
+{"id": "P001046", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000049", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000785", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000123", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000925", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002875", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Gift threshold unreachable within stated purchase limit: 「每人每日限购5件」 × ¥22.90 = ¥114.50 < 「满128元送定制冰箱贴」 (only reachable with other goods; mild)"], "severity": "minor"}
+{"id": "P001684", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「植物蛋白，0胆固醇」 claim made without saturated-fat row (GB 28050 无胆固醇 also requires sat fat ≤0.75g/100mL); cosmetic"], "severity": "minor"}
+{"id": "P001978", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002954", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001653", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001616", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000948", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000433", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000196", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Clean event mismatch: 「活动名称：食堂开放日」 (school canteen open day) is held at 「南桥街道社区卫生服务中心三楼健康教育室」, not a school canteen"], "severity": "minor"}
+{"id": "P001395", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001973", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002338", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000817", "generatable": true, "realistic": false, "tamper_ok": true, "defects": ["Product type 「果汁饮料」 with only 「芒果浆添加量≥4%」: GB/T 31121 requires juice content ≥10% for 果汁饮料, so the category/percentage pairing is implausible (regulatory pedantry, not an in-image contradiction)"], "severity": "minor"}
+{"id": "P001553", "generatable": true, "realistic": false, "tamper_ok": true, "defects": ["Product type 「果汁饮料」 with 「浓缩橙汁添加量≥5%」: GB/T 31121 requires ≥10% juice for 果汁饮料 (regulatory pedantry; same library pattern as P000817)"], "severity": "minor"}
+{"id": "P002747", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001857", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Broken tamper: tamper_details claims 「产地被写为「呼和浩特市」，与生产商地址所在地「呼和浩特市」不符」 but 产地「呼和浩特市」 matches 地址「内蒙古自治区呼和浩特市土默特左旗…」, company 呼和浩特佳禾 and licence SC11315… — no manufacturer/origin anomaly exists; label is false", "Per-tablet mass infeasible: 1.0g tablet with protein 0.1g + fat 0.1g + carb 0.7g + calcium 102mg (≈255mg CaCO3) ≈1.16g > 1.0g"], "severity": "major"}
+{"id": "P002184", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Footer 「扫码参与营养周线上知识竞答」 on a 全民营养周 poster whose event is 2027年1月2日; 全民营养周 is held in May (mild realism)"], "severity": "minor"}

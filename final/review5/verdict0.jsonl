@@ -1,0 +1,25 @@
+{"id": "P002786", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002066", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["产品类型「风味发酵乳」 but copy says 「本品为热处理产品，不含活性乳酸菌」 — GB 19302 would call it 热处理风味发酵乳; 「开盒即饮」 is odd for a thick yogurt"], "severity": "minor"}
+{"id": "P000700", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001237", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002436", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000231", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["tamper_details says the date was extended 'by one month', but 2月7日→3月9日 is 30 days (the anomaly is still there)", "An outdoor evening lawn market 「悦荟广场滨江公园草坪」 15:00—21:00 in Changchun in early February is not very realistic"], "severity": "minor"}
+{"id": "P000833", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000737", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001289", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["The intended deletion does not happen: tamper_details says 「请按医嘱用药，不要擅自停药」 was deleted, but the prompt still has 「按医嘱用药，不要擅自停药」 under 日常管理, so the warning is still shown and the image is effectively clean"], "severity": "major"}
+{"id": "P000438", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Carbohydrate 「0 g」 is questionable with 赤藓糖醇 in the ingredients (sugar alcohols count as carbohydrate on Chinese labels)"], "severity": "minor"}
+{"id": "P002273", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Allergen line 「含有腰果、坚果、榛子、核桃、开心果」 lists redundant, mixed categories (腰果 and 坚果 together; 扁桃仁 not named) — awkward wording"], "severity": "minor"}
+{"id": "P001743", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002408", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Unintended contradiction: the info card gives 「生产日期：2027年03月25日」「保质期：2天」「保质期至：2027年03月26日」, but the promotion runs 「2027.3.27—3.28」, so the advertised item is already expired during the sale (not in tamper_details)", "Allergen line 「含有鱼、鸡蛋、大豆」 leaves out wheat even though 酿造酱油 is in the ingredients"], "severity": "major"}
+{"id": "P001347", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The price rule text does not add up: 「活动价¥8.33」 plus 「¥2.90为第3件加购价…单件实付最低¥11.90」 — the 'lowest per-unit price' equals the original price, and the ¥8.33 activity price is unexplained. The bait anomaly is still there"], "severity": "minor"}
+{"id": "P001372", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Standard 「GB 7101-2022」 (beverage safety standard) is cited for an NFC juice; a real label would more likely cite GB/T 31121 and the type 果汁（非复原果汁）"], "severity": "minor"}
+{"id": "P000623", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000028", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000331", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001131", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002302", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002028", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The warning_deletion tamper does not work: 「饮酒后不开车，开车不饮酒」 was deleted but 「酒后不驾车」 is still under 成年人饮酒提示 (the other tampers do carry the image)", "The inserted misinformation 「小孩喝点啤酒能开胃，还能锻炼酒量」 breaks the pattern of the 「这些人不应饮酒」 list, which otherwise names groups of people — it reads as less naturally embedded"], "severity": "minor"}
+{"id": "P002811", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Same odd price-rule wording as P001347: 「活动价¥20.90」 alongside 「单件实付最低¥23.90」 (equals the original price)"], "severity": "minor"}
+{"id": "P002582", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["A 食品安全宣传周 held in January (「2027年1月5日—1月6日」) is unusual; the national week is normally in June"], "severity": "minor"}
+{"id": "P000768", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["The agenda_time_conflict tamper is missing: 「13:00—16:00」 does not overlap the previous item 「10:30—12:00」 or the next item 「16:00—17:00」, so tamper_details 'overlaps the previous slot' is false (the date-extension tamper is present)"], "severity": "major"}
+{"id": "P000057", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

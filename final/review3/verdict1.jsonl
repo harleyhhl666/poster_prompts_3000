@@ -1,0 +1,25 @@
+{"id": "P001177", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Packaging described as「袋装包装」but front selling point says「挤挤瓶设计，用量好掌控」— packaging/copy contradiction in clean variant"], "severity": "minor"}
+{"id": "P002394", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001096", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Manufacturer「阜阳金穗酿造有限公司」(a brewing company) making mayonnaise-type sauce — slight brand/producer fit oddity (pedantic)"], "severity": "minor"}
+{"id": "P000439", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Two-day event (3月20日—3月21日) with「名额40个」/「限前40名」ambiguous whether per day or total"], "severity": "minor"}
+{"id": "P002584", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002729", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000859", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Production date/batch/expiry (「【生产日期】2026年09月28日」「【批号】KT260928H09」) printed on a folded instruction leaflet — normally on package, not leaflet", "Promotional footer slogans on a regulated 说明书 slightly unrealistic"], "severity": "minor"}
+{"id": "P001279", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Product name claims「0糖」but nutrition table has no「糖」row (sugar claim requires sugar content declaration)", "「碳水化合物｜0 g」despite「赤藓糖醇」as 2nd ingredient — sugar alcohols count toward carbohydrate in CN labeling, real 0-sugar erythritol drinks show ~3–5 g carbs"], "severity": "minor"}
+{"id": "P002053", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["「适宜人群：成人」conflicts with kid-oriented packaging「粉蓝色卡通瓶…小脑袋插画」and caution「请在成人看护下食用，谨防误吸」(child-directed warning)"], "severity": "minor"}
+{"id": "P000515", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001700", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002404", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Clean variant: front selling point「真牛乳搭配，醇香浓郁」contradicts product「美式黑咖啡」and ingredients「配料：水、咖啡、碳酸氢钠。」(no milk) — unintended copy vs ingredients contradiction"], "severity": "major"}
+{"id": "P000140", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001426", "generatable": false, "realistic": true, "tamper_ok": false, "defects": ["Nutrition table given without header/basis (no「项目｜每粒/每100g｜营养素参考值%」row) — model must invent the reference basis (values imply per 2.5g piece)", "Product name「多种维生素凝胶糖果」but only「维生素C」among ingredients/nutrition — name vs ingredient contradiction in clean variant"], "severity": "major"}
+{"id": "P002498", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000606", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Poster themed 学生营养 co-organised by「星湖幼儿园」with weekday 14:30 event — minor audience/timing oddity (pedantic)"], "severity": "minor"}
+{"id": "P002362", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style conflict:「高端礼盒风：深色背景配烫金元素」vs「主色调：柠檬黄与白色为主」", "Brand「滇野本味」(Yunnan-styled) selling「广式腊肠」made by「沈阳德隆食品有限公司」— brand/product/origin fit weak (pedantic)"], "severity": "minor"}
+{"id": "P002155", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000313", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002239", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Copy「进口稀奶油，奶香浓郁」not supported by ingredients (just「稀奶油」)", "Seasonal copy「夏日清凉好伴侣」on a December (2026.12.26—12.27) promotion"], "severity": "minor"}
+{"id": "P002711", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style conflict:「高端礼盒风：深色背景配烫金元素」vs「主色调：柠檬黄与白色为主」"], "severity": "minor"}
+{"id": "P001127", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002827", "generatable": false, "realistic": true, "tamper_ok": true, "defects": ["Prompt says「三条卖点短句」but only one is supplied (「冲调晶莹剔透」) — model may invent two extra lines"], "severity": "minor"}
+{"id": "P002033", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000387", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Price block repeats「秒杀价 ¥37.90」and「秒杀价¥37.90」(duplicate string)"], "severity": "minor"}

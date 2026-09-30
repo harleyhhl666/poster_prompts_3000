@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+
+# one-off development patch/inspection scripts and scratch files (not part of the pipeline)
+src/_dev/
+src/_edit.py
+b3.json
+
+# duplicate copies of the final data (canonical copies live in final/)
+/poster_prompts_3000.jsonl
+/poster_prompts_3000.csv
+
+# derived / subset files that duplicate tracked data
+final/poster_prompts_3000_sample*.jsonl
+final/qa_stdout.txt
+pilot/poster_prompts_150.csv
+pilot/poster_prompts_150_sample*.jsonl
+# per-round review prompt snapshots (intermediate versions of the prompts; verdicts + sample ids are kept)
+final/review*/batch*.jsonl
+
+# environment / secrets (none exist; guard only)
+.env
+*.key
+*.pem
+.venv/
+.vscode/
+.idea/

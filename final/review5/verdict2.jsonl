@@ -1,0 +1,25 @@
+{"id": "P000317", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002089", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Sub-category is 蜂产品糖果标签 and the producer is 「重庆惠民蜂业有限公司」, but the ingredients contain no honey or other bee product (cosmetic mismatch)."], "severity": "minor"}
+{"id": "P002072", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000383", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001612", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001954", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Address has a duplicated zone name: 「广东省中山市火炬开发区经济开发区富民路219号」."], "severity": "minor"}
+{"id": "P002745", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000972", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Tamper 2 is not actually anomalous: flow rows 「11:00—14:00｜午间第二杯半价」 and 「14:00—16:00｜下午茶买一送一时段」 are adjacent, not overlapping, so the claimed '与上一项时间段重叠' does not exist.", "Capsule label 「按饮品售价」 reads oddly as a headline tag."], "severity": "major"}
+{"id": "P001916", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["A beverage has its pack size in grams: 「规格：100g×20瓶/箱」 (mL would be normal)."], "severity": "minor"}
+{"id": "P000005", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Unlabelled extra contradiction: the event time is 「08:30—11:30」 but the flow table runs to 「11:00—12:00｜营养师膳食咨询」 and 「12:00—12:30｜家庭医生签约服务」. tamper_details only lists the weekday error, so the ground truth is incomplete."], "severity": "major"}
+{"id": "P000523", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002643", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000994", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The product name and 「每片含：…钙 80mg」 highlight calcium, but the nutrition table has no 钙 row (GB 28050 expects a claimed nutrient to be listed)."], "severity": "minor"}
+{"id": "P000237", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Tamper 3 (reorder) is weak: 核桃仁 listed first with 「核桃仁添加量≥8%」 is a lower bound and not strictly contradictory, so it may not be detectable. The other two tampers are clearly present."], "severity": "minor"}
+{"id": "P000014", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000210", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The organiser 「嘉兴市青禾区网信部门」 is a vague body name; a real one would be 网信办 (cosmetic)."], "severity": "minor"}
+{"id": "P002170", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The title 「陇原本味周末亲子料理营」 (a Gansu theme) is odd for a Huzhou mall organiser.", "Capsule 「限10名」 vs rule 「每场限10组家庭」: persons vs families, slight inconsistency."], "severity": "minor"}
+{"id": "P002995", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001038", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000773", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000668", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The second approval number is placed 「另在背面条形码上方」, but the flat 9:16 info card has no back side or barcode anywhere else. The placement is ambiguous, so the model may drop it and lose the key anomaly."], "severity": "minor"}
+{"id": "P002413", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Price tag 「单位：箱」 for a 198g×3罐 bundle (组 would be more natural)."], "severity": "minor"}
+{"id": "P000163", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The ingredients include 碳酸钙 (calcium fortification), yet the table shows 「钙｜0 mg｜0%」. This is technically possible per 5g after zero-rounding, but it looks contradictory in a clean sample.", "「蛋白质｜0 g」 and 「脂肪｜0 g」 despite 植物油 and 全脂乳粉≥3% (allowed by zero-rounding, pedantic)."], "severity": "minor"}
+{"id": "P000960", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001367", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

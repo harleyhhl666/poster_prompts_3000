@@ -1,0 +1,25 @@
+{"id": "P000885", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000023", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001989", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002523", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Right-top section titled「多喝奶多运动」contains the off-topic point「保证充足睡眠」(cosmetic)"], "severity": "minor"}
+{"id": "P002962", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002051", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「产品类型：冰淇淋（全乳脂）」while the coating uses「代可可脂」; a coated product would normally be labelled 组合型 (pedantic)"], "severity": "minor"}
+{"id": "P001142", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredient-order tamper is weak on a single image: with「椰子水添加量≥30%」, coconut water being listed first is not an explicit contradiction; the batch mismatch「20270222C05」vs「20270222C08」carries the detectable signal"], "severity": "minor"}
+{"id": "P000178", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001747", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002259", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001431", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Unintended arithmetic inconsistency in the rules: 2×¥51.90+¥18.90=¥122.70, but the rules say「组合价¥116.90」; also「单件实付最低¥51.90」is odd for a 3-piece bundle averaging about ¥38.97"], "severity": "minor"}
+{"id": "P000469", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002335", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「食品安全周」held on 2027-03-08: China's national food-safety week is normally in June; also「资料来源：市场监管投诉举报热线」is an unusual source citation (cosmetic)"], "severity": "minor"}
+{"id": "P002808", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000976", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001478", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002116", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002902", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002879", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001179", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredient-order tamper is only inferable: 燕麦片 listed first with「燕麦片添加量≥15%」is not a strict contradiction (a ≥ bound); it is detectable only by reasoning that the sugar level (12.9g/35g) implies 白砂糖 >15%. The date/spray-code and efficacy tampers are clear"], "severity": "minor"}
+{"id": "P001197", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001512", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000050", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002956", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Mild clean-prompt inconsistency: invitation-only entry (「凭邀请函入场，谢绝未受邀人员」) vs open sign-up「关注公众号回复“报名”」; also the organiser is the mall「重庆万象汇购物中心」rather than the brand, and the 椰林 (coconut) brand's visual features「悬浮的燕麦粒」(oat grains)"], "severity": "minor"}
+{"id": "P002093", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

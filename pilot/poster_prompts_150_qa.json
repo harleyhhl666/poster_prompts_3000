@@ -1,0 +1,174 @@
+{
+ "summary": {
+  "review_defect_tampered": 3,
+  "exact_dup_prompts": 0,
+  "near_dup_pairs_gt_0.85": 0
+ },
+ "stats": {
+  "n_rows": 150,
+  "n_groups": 50,
+  "variant": {
+   "clean": 50,
+   "subtle": 50,
+   "strong": 50
+  },
+  "super_category": {
+   "保健品说明": 24,
+   "活动宣传": 24,
+   "商业广告": 36,
+   "食品标签": 45,
+   "公益海报": 21
+  },
+  "n_sub_category": 41,
+  "density": {
+   "Very High": 91,
+   "High": 59
+  },
+  "aspect": {
+   "9:16": 45,
+   "4:5": 18,
+   "1:1": 6,
+   "4:3": 12,
+   "3:4": 45,
+   "16:9": 24
+  },
+  "realism": {
+   "flat": 48,
+   "scene": 36,
+   "phone": 30,
+   "studio": 36
+  },
+  "unique_brands": 50,
+  "unique_products": 50,
+  "unique_archetypes": 48,
+  "prompt_len": {
+   "min": 811,
+   "max": 1801,
+   "mean": 1324
+  },
+  "similarity_clean_quoted_text": {
+   "保健品说明": {
+    "pairs_checked": 28,
+    "median": 0.623,
+    "p99": 0.715,
+    "max": 0.715
+   },
+   "活动宣传": {
+    "pairs_checked": 28,
+    "median": 0.486,
+    "p99": 0.59,
+    "max": 0.59
+   },
+   "商业广告": {
+    "pairs_checked": 66,
+    "median": 0.654,
+    "p99": 0.732,
+    "max": 0.732
+   },
+   "食品标签": {
+    "pairs_checked": 105,
+    "median": 0.641,
+    "p99": 0.732,
+    "max": 0.742
+   },
+   "公益海报": {
+    "pairs_checked": 21,
+    "median": 0.332,
+    "p99": 0.503,
+    "max": 0.503
+   }
+  },
+  "tamper_by_variant": {
+   "agenda_time_conflict|strong": 2,
+   "agenda_time_conflict|subtle": 2,
+   "allergen_deletion|strong": 9,
+   "allergen_deletion|subtle": 6,
+   "approval_number_tamper|strong": 3,
+   "approval_number_tamper|subtle": 2,
+   "claim_nutrition_conflict|strong": 6,
+   "claim_nutrition_conflict|subtle": 2,
+   "contact_info_tamper|strong": 7,
+   "contact_info_tamper|subtle": 2,
+   "efficacy_exaggeration|strong": 11,
+   "efficacy_exaggeration|subtle": 6,
+   "event_date_tamper|strong": 5,
+   "event_date_tamper|subtle": 4,
+   "health_fact_tamper|strong": 5,
+   "health_fact_tamper|subtle": 2,
+   "hidden_fee_condition|strong": 4,
+   "hidden_fee_condition|subtle": 2,
+   "ingredient_order_tamper|strong": 10,
+   "ingredient_order_tamper|subtle": 7,
+   "manufacturer_info_tamper|strong": 4,
+   "manufacturer_info_tamper|subtle": 2,
+   "misinformation_insertion|strong": 2,
+   "misinformation_insertion|subtle": 2,
+   "nutrition_value_tamper|strong": 5,
+   "nutrition_value_tamper|subtle": 3,
+   "price_tamper|strong": 3,
+   "price_tamper|subtle": 2,
+   "product_attribute_tamper|strong": 3,
+   "production_date_tamper|strong": 9,
+   "production_date_tamper|subtle": 4,
+   "promotion_date_tamper|strong": 3,
+   "promotion_date_tamper|subtle": 2,
+   "promotion_rule_tamper|strong": 5,
+   "promotion_rule_tamper|subtle": 1,
+   "quantity_tamper|strong": 8,
+   "quantity_tamper|subtle": 3,
+   "quota_contradiction|strong": 3,
+   "quota_contradiction|subtle": 2,
+   "shelf_life_tamper|strong": 12,
+   "shelf_life_tamper|subtle": 5,
+   "source_attribution_tamper|strong": 1,
+   "source_attribution_tamper|subtle": 1,
+   "standard_number_tamper|strong": 2,
+   "standard_number_tamper|subtle": 1,
+   "target_population_tamper|strong": 3,
+   "target_population_tamper|subtle": 1,
+   "unsubstantiated_claim|strong": 2,
+   "venue_tamper|strong": 3,
+   "venue_tamper|subtle": 1,
+   "warning_deletion|strong": 9,
+   "warning_deletion|subtle": 5
+  },
+  "semantic_inconsistency_by_variant": {
+   "strong|batch_date_mismatch": 4,
+   "strong|date_shelf_expiry_mismatch": 2,
+   "strong|energy_inconsistent": 2,
+   "strong|nrv_mismatch": 5,
+   "subtle|batch_date_mismatch": 4,
+   "subtle|date_shelf_expiry_mismatch": 5,
+   "subtle|energy_inconsistent": 1,
+   "subtle|nrv_mismatch": 1,
+   "subtle|weekday_wrong": 4
+  },
+  "review_defect_counts": {
+   "multi_city": 3
+  }
+ },
+ "findings": {
+  "review_defect_tampered": [
+   [
+    "P000036",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000060",
+    [
+     "multi_city"
+    ]
+   ],
+   [
+    "P000105",
+    [
+     "multi_city"
+    ]
+   ]
+  ],
+  "exact_dup_prompts": [],
+  "near_dup_pairs_gt_0.85": []
+ }
+}

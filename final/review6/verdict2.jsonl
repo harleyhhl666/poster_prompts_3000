@@ -1,0 +1,25 @@
+{"id": "P000323", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["适宜人群「3岁以上人群」conflicts with product positioning「中老年高钙高蛋白奶粉」(unintended, cosmetic)"], "severity": "minor"}
+{"id": "P001472", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Extra unintended inconsistency: flow table「会员积分翻倍」vs welfare card「会员购物积分3倍」", "Organizer brand「陇原甄选」(Gansu name) run by a 新乡 company — cosmetic"], "severity": "minor"}
+{"id": "P000303", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Product named 「…磷脂酰丝氨酸片」 but 功效成分 declares only 总黄酮醇苷/萜类内酯, no PS content", "保健功能 uses pre-2023 wording「辅助改善记忆」(2023 list: 有助于改善记忆) — pedantic"], "severity": "minor"}
+{"id": "P000203", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001329", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001242", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000926", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001331", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001406", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000958", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002042", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Seasonal mismatch: 绿豆雪糕 promoted under「年货节 置办好年货」in January (cosmetic)"], "severity": "minor"}
+{"id": "P000787", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Package description contains readable text '粗粮' outside 「」 (conflicts with 'no extra text' rule; model may render it)", "Name emphasizes 奇亚籽 but only「全麦粉添加量≥12%」is quantified (no 奇亚籽 quantity) — pedantic", "Brand「粤鲜田记」made in 玉溪 — cosmetic"], "severity": "minor"}
+{"id": "P001299", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000390", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["No allergen statement at all although 配料 contains「黑豆」(soybean) — unlisted extra anomaly not in tamper_details (optional under GB 7718-2011 for 2026 production, so minor)"], "severity": "minor"}
+{"id": "P002663", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredient-order tamper (「针叶樱桃粉」 2nd, with「≥3%」) is not visually verifiable from the image; detectability relies on the exaggeration tamper only", "Nutrition row「能量｜0 kJ」with「碳水化合物｜1.0 g」per 1.0g tablet (=17 kJ; legally within '0' threshold ≤17 kJ, but looks inconsistent)", "Manufacturer「长沙裕丰蜂业有限公司」(bee-products company) making VC candy — cosmetic"], "severity": "minor"}
+{"id": "P001813", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002478", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001839", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002057", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000098", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000087", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Organizer「新乡市望江区乡镇卫生院」is a generic placeholder name, not a real-style institution name (should be e.g. XX镇卫生院)"], "severity": "minor"}
+{"id": "P000230", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000198", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「食堂开放日」held at「社区卫生服务中心三楼健康教育室」rather than a school canteen — venue/event mismatch (library pairing)"], "severity": "minor"}
+{"id": "P001865", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000691", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

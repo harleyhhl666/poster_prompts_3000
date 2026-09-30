@@ -1,0 +1,25 @@
+{"id": "P000152", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001236", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Title 「营养健康促进会 “三减三健”健康大讲堂」 repeats the organiser name awkwardly (cosmetic)"], "severity": "minor"}
+{"id": "P001037", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000280", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002311", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Licence 「SC12713031297761」 uses category code 27 (保健食品) for an ordinary 压片糖果; should be SC113… (糖果制品)"], "severity": "minor"}
+{"id": "P001028", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Chilled 风味发酵乳 with 「保质期：21天」 imported from Denmark (「原产国：丹麦」) is marginally plausible; Chinese-style batch 「2026-10-10-09」 on an imported product"], "severity": "minor"}
+{"id": "P002332", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Clean prompt: allergen line 「含有小麦…、乳制品、燕麦…、大豆制品、鸡蛋」 declares 大豆制品 but the ingredient list (「黑巧克力（可可液块、白砂糖、可可脂）」…) contains no soy ingredient/大豆磷脂 → unintended allergen–ingredient contradiction", "Carrier is 「圆柱形罐装食品的罐身标签」 but packaging is 「棕色牛皮纸风格包装」 and 「食用方法：开袋即食。」 (bag wording on a can)"], "severity": "major"}
+{"id": "P002483", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Imported 「Sakura Hill Foods」 (Japan) product under Jiangxi-sounding brand 「赣禾臻选」 – weak brand–origin fit", "Live-culture 活性乳酸菌 drink lacks a lactic-acid-bacteria count statement (GB 7101-2022 requirement)"], "severity": "minor"}
+{"id": "P002102", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Caffeine + taurine 「维生素功能饮料」 labelled 「产品类型：风味饮料」; in China such products are 特殊用途饮料/营养素饮料 (caffeine not permitted in 风味饮料)"], "severity": "minor"}
+{"id": "P000222", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Deleted 重点提示 「请按医嘱用药，不要擅自停药」 is still effectively present as bullet 「按医嘱用药，不要擅自停药」 in 日常管理 → the warning_deletion tamper carries no information loss (other two tampers fine)"], "severity": "minor"}
+{"id": "P002919", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「花生」 in the ingredient list of an 「燕麦早餐奶」 whose name/copy never mention peanut looks contrived"], "severity": "minor"}
+{"id": "P002706", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001104", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002522", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「健康早餐评比」 held 「15:00—17:00」 on a Sunday afternoon – mild event/content mismatch"], "severity": "minor"}
+{"id": "P002589", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002205", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Organiser 「潍坊滨江汇」 running 「苏野集市…」 (Jiangsu-flavoured name in Weifang) – slight naming incoherence"], "severity": "minor"}
+{"id": "P002598", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001452", "generatable": true, "realistic": false, "tamper_ok": false, "defects": ["Intended standard_number_tamper is not an anomaly: GB 7101-2022 explicitly covers 固体饮料 (scope/definition lists solid beverages), so 「产品标准号：GB 7101-2022」 is a legitimate standard for a 维生素C泡腾片固体饮料 – one of two intended anomalies missing", "Pre-packaged 固体饮料 has no 营养成分表 although mandatory under GB 28050; prompt boilerplate even demands a nutrition table that is never specified", "Licence 「SC12744101105189」 uses 保健食品 code 27 for an ordinary solid beverage (should be SC106…)"], "severity": "major"}
+{"id": "P001193", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002411", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Deleted 重点提示 「超过保质期的食品请勿食用」 largely survives as 「过期食品不得销售和食用」, weakening the deletion (main 12351 tamper fine)", "Left-column bullets under 「什么是临期食品」 put the definition 「临近保质期到期日但仍在保质期内」 last – odd order"], "severity": "minor"}
+{"id": "P002108", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Uses real mall brand 万象汇 (华润万象汇, which exists in 沈阳): 「主办：沈阳万象汇购物中心」 – attributes a fabricated hidden fee to a real brand; should be fictional"], "severity": "minor"}
+{"id": "P000305", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002212", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001820", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Licence 「SC10350011044670」 uses category 03 (调味品) for a meat product; should be SC104…"], "severity": "minor"}
+{"id": "P002985", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

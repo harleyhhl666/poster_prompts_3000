@@ -1,0 +1,25 @@
+{"id": "P000478", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「产品标准代号：GB 2759-2015」 is the frozen-drinks food-safety standard rather than an ice-cream product standard (e.g. GB/T 31114); plausible on real labels"], "severity": "minor"}
+{"id": "P001326", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000112", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Packaging 「屋顶盒包装，锡箔封口」 is slightly incoherent (gable-top cartons are not foil-sealed); cosmetic"], "severity": "minor"}
+{"id": "P002308", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000232", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001843", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002651", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001801", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000310", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002686", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000824", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001122", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「产品标准代号：Q/MAM 0049S-2025」 enterprise standard for a 特级 brewed soy sauce; real labels usually cite GB/T 18186 (pedantic)"], "severity": "minor"}
+{"id": "P001674", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001317", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000077", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Invite-only event (「凭邀请函入场，谢绝未受邀人员」) yet 报名方式「关注公众号回复“报名”」 — slight unintended tension"], "severity": "minor"}
+{"id": "P002433", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002558", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002791", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Layout says bottom row holds 「日期、批号、标准号和生产者信息」 but no 标准号 text is supplied — model may invent one"], "severity": "minor"}
+{"id": "P001372", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000959", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「每节课限12人」 implies possibly multiple sessions, so 「本次活动共开放32个名额」 can be rationalised; contradiction slightly weakened (only one session 14:00—17:00 listed, so still present)"], "severity": "minor"}
+{"id": "P000216", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["全民营养周 is held in May; March event with 「扫码参与营养周线上知识竞答」 is slightly off-season (realism nit)"], "severity": "minor"}
+{"id": "P001504", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000740", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredient-order tamper (「水、仙草、白砂糖…」) is not verifiable from the image alone (weakly implied by 糖7.4 g); the 「中药保健凉茶」 claim carries detectability"], "severity": "minor"}
+{"id": "P000103", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「活动最终解释权归主办方所有」 is a regulator-disfavoured clause, but realistic in practice"], "severity": "minor"}
+{"id": "P002750", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}

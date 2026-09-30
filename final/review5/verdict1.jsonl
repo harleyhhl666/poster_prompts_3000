@@ -1,0 +1,25 @@
+{"id": "P002825", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000637", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001894", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Packaging art「老人与孩子笑脸插画」slightly mismatches a product named「学生高钙营养奶粉」with「适宜人群：3岁以上人群」(cosmetic)"], "severity": "minor"}
+{"id": "P000731", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002013", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000646", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Nougat manufacturer is「漳州润泽蜂业有限公司」(a bee-products company) — slightly odd but plausible"], "severity": "minor"}
+{"id": "P001303", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Commissioning party「玉溪锦华蜂业有限公司」(bee-products firm) for a nougat — slightly odd but plausible"], "severity": "minor"}
+{"id": "P001438", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Allergen line「含有腰果、坚果、榛子、核桃、开心果」 is redundant/awkward (generic 坚果 mixed with specific nuts; 扁桃仁 only covered implicitly)"], "severity": "minor"}
+{"id": "P000775", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001353", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Unintended extra rule conflict: 「每位会员限购2件」 vs 「¥4.90为第3件加购价，需同时购买2件原价商品」 (3rd item impossible under a 2-item limit); also 「会员价」 rule references a member price that is never shown"], "severity": "minor"}
+{"id": "P002282", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredient-order swap (维生素C vs 微晶纤维素) is not verifiable from a single image; detectability relies on batch/date mismatch only"], "severity": "minor"}
+{"id": "P000614", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Intended agenda_time_conflict is NOT present: 「10:00—14:00｜会员积分翻倍」 ends at 14:00 and 「14:00—16:00｜会员专享抽奖」 starts at 14:00 — adjacent, not overlapping", "Other tamper (deleted 「积分兑换当日有效」) is deletion-only, so the image carries no detectable anomaly", "Unintended minor inconsistency: flow says 「会员积分翻倍」 while benefits say 「会员购物积分3倍」"], "severity": "major"}
+{"id": "P000664", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002793", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001344", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001437", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000235", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002984", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Packaging description 「苦瓜切片与血糖仪图标」 — a blood-glucose meter icon on health-food packaging is borderline unrealistic (implies medical efficacy)"], "severity": "minor"}
+{"id": "P001759", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000767", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001796", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001480", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002896", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002989", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001626", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Spray code internally inconsistent with stated 6-month original shelf life: 「2027/01/27 … 保质期至2027/08/24」 (01-27 + 6 months − 1 day = 2027-07-26); anomaly still present but the 'original' state is incoherent", "Allergen 「本产品含有大豆。」 omits wheat although 酿造酱油 is typically soy+wheat (pedantic)"], "severity": "minor"}

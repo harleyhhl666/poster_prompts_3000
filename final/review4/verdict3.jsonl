@@ -1,0 +1,25 @@
+{"id": "P001186", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001771", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000244", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001263", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001721", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002431", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001802", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Imported chilled NZ yoghurt with only「保质期：21天」is logistically unusual (sea freight impractical); plausible only via air freight"], "severity": "minor"}
+{"id": "P000480", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Carrier mismatch: scene is「饮料/调味品瓶身环绕式标签」but packaging is「纸桶包装」ice cream", "「巧克力脆皮冰淇淋」(coated bar type) sold as a 700g「纸桶」tub is an odd product/packaging fit"], "severity": "minor"}
+{"id": "P000786", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Unlisted extra contradiction: headline「仅限3天」vs the headline's own「活动时间 2026.12.15—12.28」(14 days); tamper_details only describes the extension to 2027-01-28, so ground truth is incomplete"], "severity": "minor"}
+{"id": "P002031", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Style/palette mismatch:「复古牛皮纸风」paired with「嫩绿色与白色为主」", "Organiser「主办：天津云溪里」vs event brand「瑞麦生活」in title is loosely linked"], "severity": "minor"}
+{"id": "P002637", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000453", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000112", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002145", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Tags「高钙」and「钙来源」both shown — redundant/contradictory claim levels for the same nutrient (likely inherited from clean)"], "severity": "minor"}
+{"id": "P000323", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「产品标准代号：GB 19644-2010」is superseded by GB 19644-2024 (effective 2025) for a 2026 product", "「中老年高钙高蛋白奶粉」with「适宜人群：3岁以上人群」— target population mismatch with product positioning (inherited from clean)"], "severity": "minor"}
+{"id": "P000572", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002702", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001456", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001326", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001550", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000956", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002173", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001256", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ordinary-food 凝胶糖果 carries licence「SC12741072757397」whose category code 127 = 保健食品 (candy would be 113); inconsistent with product type"], "severity": "minor"}
+{"id": "P002771", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000514", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Brand「北岭工坊」(workshop-style name) sponsoring bone-density screening with「钙片体验装」is a weak brand-activity fit"], "severity": "minor"}

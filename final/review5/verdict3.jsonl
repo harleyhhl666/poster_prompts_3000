@@ -1,0 +1,25 @@
+{"id": "P002719", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001101", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000695", "generatable": true, "realistic": true, "tamper_ok": false, "defects": ["Unintended contradiction: 「活动时间：2027年2月6日（周六） 08:30—11:30」 but schedule runs 「11:00—12:00｜营养师膳食咨询」 and 「12:00—12:30｜家庭医生签约服务」, past the stated end time", "2027-02-06 is Chinese New Year's Day (大年初一); a community health-consult day then is implausible"], "severity": "major"}
+{"id": "P002141", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Redundant warning wording: 「学龄前儿童须在成人监护下食用；老人儿童须监护下食用」"], "severity": "minor"}
+{"id": "P002482", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Layout says the bottom row holds 「标准号」 but no standard-number text is supplied; the model may invent one"], "severity": "minor"}
+{"id": "P001766", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000189", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["sub_category 蜂产品糖果标签, but the product 「乳酸菌味软糖」 has no bee-product ingredient (only the maker name 长沙嘉元蜂业 hints at it); also 乳酸菌味 with no dairy/lactobacillus ingredient"], "severity": "minor"}
+{"id": "P001453", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000358", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Scene calls it a 「保健食品说明书」 while the product is an ordinary 固体饮料 (the text itself stays consistent)"], "severity": "minor"}
+{"id": "P002788", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Tag 「限10名」 vs notice 「每场限10组家庭」 (10 people vs 10 families); a capped session with 「无需报名，现场签到即可参加」 is also slightly inconsistent"], "severity": "minor"}
+{"id": "P002062", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000411", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["The overlapping schedule item 「08:30—11:00」 also starts before the event opens (「每日09:00—16:00」); this adds to the intended anomaly and is harmless"], "severity": "none"}
+{"id": "P000512", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001051", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001137", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["tamper_details item 2 says the batch was rewritten to match the new date, but item 3 overrides it to 「20260913C11」; the metadata overlaps but the prompt text is coherent"], "severity": "minor"}
+{"id": "P000886", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Ingredients include 「花生油」 but the allergen line 「本产品含有小麦、鸡蛋。」 omits peanut (arguable for refined oil)", "A mooncake dated 「生产日期：2027.03.13」 (spring) is seasonally unusual"], "severity": "minor"}
+{"id": "P001778", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002466", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["tamper_details says the limit rules were deleted, yet 「每人每日限购2件」 remains; only the disclaimer 「实际优惠以收银台结算为准，恕不另行通知」 was added (metadata slightly overstates the change)"], "severity": "minor"}
+{"id": "P002573", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000227", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001232", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002494", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001898", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["「非活菌型」 product lists live-culture ingredient 「嗜酸乳杆菌」 (acceptable as the starter strain; pedantic)"], "severity": "minor"}
+{"id": "P000230", "generatable": true, "realistic": false, "tamper_ok": true, "defects": ["Evening outdoor market on 「悦荟广场滨江公园草坪」 in Changchun on 「2027年2月6日—2月7日」 (deep winter, ~-20°C; 2027-02-06 is also Chinese New Year's Day) with 「宠物入场请牵绳」 and 「乐队演出」 is implausible"], "severity": "minor"}
+{"id": "P002245", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["Activity box 「活动名称：免费体检」 vs footer 「欢迎参加社区长者营养课堂」 names a different event (slight mismatch in a clean prompt)"], "severity": "minor"}

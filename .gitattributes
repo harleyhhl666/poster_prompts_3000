@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# data files are stored byte-for-byte so SHA256SUMS.txt stays valid
+*.jsonl -text
+*.csv -text

@@ -1,0 +1,25 @@
+{"id": "P002029", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000879", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002070", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000140", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002300", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000880", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000589", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002655", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001760", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001746", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["页脚「投诉举报电话：024-81789030」与报名电话相同、且与正文「投诉举报请拨打12315」不一致，为清洁基底中已有的非预期联系方式冲突（可能干扰联系人电话篡改的标注）"], "severity": "minor"}
+{"id": "P002508", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["喷码「2027/03/07 TX270307H09 保质期至2027/06/21」内部不自洽：2027-03-07+90天−1=2027-06-04，06-21实为按篡改后日期03-24推算的结果，tamper_details所称“原保质期至2027-06-21”与原生产日期不匹配（异常仍存在，但构造逻辑有误）", "月饼3月生产偏离中秋时令，略失真"], "severity": "minor"}
+{"id": "P002622", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001327", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002975", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["进口（比利时）软式吐司原始保质期仅「7天」不现实（海运/清关周期远超7天），反而篡改后的「30天」更像真实值，削弱保质期异常的可判别性"], "severity": "minor"}
+{"id": "P000529", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002567", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002359", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["进口（丹麦）冷藏风味发酵乳保质期仅「21天」且生产日期与贴标日期相同（喷码同为2026/12/24），跨境冷链下不太现实"], "severity": "minor"}
+{"id": "P000005", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000305", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P000730", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P002188", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001787", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["头图卖点仍为「有助于抗氧化」，与功能卡/信息表「有效抗氧化」并存（自然的内部不一致，可接受）"], "severity": "minor"}
+{"id": "P000449", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
+{"id": "P001490", "generatable": true, "realistic": true, "tamper_ok": true, "defects": ["脂肪改为「2.0 g」后同时与正面「低脂」声称（≤1.5g/100mL）冲突，属tamper_details未记录的附带异常"], "severity": "minor"}
+{"id": "P001499", "generatable": true, "realistic": true, "tamper_ok": true, "defects": [], "severity": "none"}
