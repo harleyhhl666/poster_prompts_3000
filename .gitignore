@@ -26,3 +26,8 @@ final/review*/batch*.jsonl
 .venv/
 .vscode/
 .idea/
+
+# English part: per-round review prompt snapshots (verdicts + sample ids + rubric are kept), scratch/pycache
+en/final/review*/batch*.jsonl
+en/pilot/*.csv
+en/src/parts/**/__pycache__/

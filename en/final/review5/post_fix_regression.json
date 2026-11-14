@@ -1,0 +1,52 @@
+{
+ "note": "Regression checks added to en/src/qa_en.py after review rounds 4 and 5. 'before' = the version sampled in review round 4 (md5 be9a1312...), 'after' = final file. Checks run on clean rows unless stated in qa_en.py.",
+ "before_md5": "be9a13123686df8f27a3039df2399164",
+ "after_rows": 1002,
+ "classes": {
+  "drop-in event with participant cap": {
+   "before": 36,
+   "after": 0
+  },
+  "allergen deletion leaves CAPITALS emphasis": {
+   "before": 5,
+   "after": 0
+  },
+  "Canadian row cites US agency": {
+   "before": 4,
+   "after": 0
+  },
+  "EU juice statement on US label": {
+   "before": 3,
+   "after": 0
+  },
+  "pharmacy venue for non-health event": {
+   "before": 3,
+   "after": 0
+  },
+  "N-month supply vs count/dose": {
+   "before": 2,
+   "after": 0
+  },
+  "ticket basis contradicts rules": {
+   "before": 2,
+   "after": 0
+  },
+  "event on Christmas Day / New Year's Day": {
+   "before": 1,
+   "after": 0
+  },
+  "slice larger than half the pack": {
+   "before": 1,
+   "after": 0
+  },
+  "Canadian row with Fahrenheit only": {
+   "before": 1,
+   "after": 0
+  },
+  "multipack piece weight vs portion": {
+   "before": 1,
+   "after": 0
+  }
+ },
+ "after_total_errors": 0
+}

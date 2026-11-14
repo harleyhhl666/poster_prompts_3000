@@ -1,0 +1,112 @@
+{
+ "n_rows": 1002,
+ "errors": [],
+ "checks": {
+  "dates": {
+   "matched_clean": 237,
+   "matched_subtle": 237,
+   "matched_strong": 237,
+   "viol_subtle": 71,
+   "viol_strong": 111
+  },
+  "eu_table": {
+   "matched_clean": 121,
+   "matched_subtle": 121,
+   "matched_strong": 121,
+   "viol_strong": 25,
+   "viol_subtle": 8
+  },
+  "us_table": {
+   "matched_clean": 54,
+   "matched_subtle": 54,
+   "matched_strong": 54,
+   "viol_strong": 8,
+   "viol_subtle": 2
+  },
+  "allergens": {
+   "matched_clean": 184,
+   "matched_subtle": 184,
+   "viol_subtle": 30,
+   "matched_strong": 184,
+   "viol_strong": 45
+  },
+  "quid_order": {
+   "matched_clean": 184,
+   "matched_subtle": 184,
+   "matched_strong": 184,
+   "viol_subtle": 4,
+   "viol_strong": 7
+  },
+  "claims": {
+   "matched_strong": 83,
+   "viol_strong": 31,
+   "matched_clean": 63,
+   "matched_subtle": 72,
+   "viol_subtle": 16
+  },
+  "weekday": {
+   "matched_clean": 166,
+   "matched_subtle": 166,
+   "viol_subtle": 28,
+   "matched_strong": 166
+  },
+  "promo": {
+   "matched_clean": 80,
+   "matched_subtle": 80,
+   "matched_strong": 80,
+   "viol_subtle": 11,
+   "viol_strong": 7
+  },
+  "agenda": {
+   "matched_clean": 34,
+   "matched_subtle": 34,
+   "matched_strong": 34,
+   "viol_strong": 6,
+   "viol_subtle": 2
+  },
+  "event": {
+   "matched_clean": 38,
+   "matched_subtle": 38,
+   "matched_strong": 38,
+   "viol_strong": 16,
+   "viol_subtle": 7
+  }
+ },
+ "dup_6gram_jaccard_clean": {
+  "Commercial ad": {
+   "pairs": 3160,
+   "median": 0.021,
+   "p99": 0.093,
+   "max": 0.286
+  },
+  "Event": {
+   "pairs": 1225,
+   "median": 0.0,
+   "p99": 0.025,
+   "max": 0.62
+  },
+  "Food label": {
+   "pairs": 5356,
+   "median": 0.014,
+   "p99": 0.101,
+   "max": 0.456
+  },
+  "Public-service poster": {
+   "pairs": 1081,
+   "median": 0.005,
+   "p99": 0.558,
+   "max": 0.71
+  },
+  "Supplement": {
+   "pairs": 1378,
+   "median": 0.028,
+   "p99": 0.183,
+   "max": 0.547
+  }
+ },
+ "exact_duplicate_prompts": 0,
+ "density": {
+  "Very High": 749,
+  "High": 253
+ }
+}

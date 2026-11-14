@@ -1,0 +1,108 @@
+{
+ "n_rows": 150,
+ "errors": [],
+ "checks": {
+  "dates": {
+   "matched_clean": 36,
+   "matched_subtle": 36,
+   "matched_strong": 36,
+   "viol_subtle": 12,
+   "viol_strong": 20
+  },
+  "eu_table": {
+   "matched_clean": 15,
+   "matched_subtle": 15,
+   "matched_strong": 15,
+   "viol_strong": 2,
+   "viol_subtle": 1
+  },
+  "us_table": {
+   "matched_clean": 13,
+   "matched_subtle": 13,
+   "matched_strong": 13,
+   "viol_strong": 2
+  },
+  "allergens": {
+   "matched_clean": 28,
+   "matched_subtle": 28,
+   "viol_subtle": 4,
+   "matched_strong": 28,
+   "viol_strong": 4
+  },
+  "quid_order": {
+   "matched_clean": 28,
+   "matched_subtle": 28,
+   "matched_strong": 28
+  },
+  "claims": {
+   "matched_strong": 11,
+   "viol_strong": 5,
+   "matched_clean": 7,
+   "matched_subtle": 9,
+   "viol_subtle": 3
+  },
+  "weekday": {
+   "matched_clean": 24,
+   "matched_subtle": 24,
+   "viol_subtle": 4,
+   "matched_strong": 24
+  },
+  "promo": {
+   "matched_clean": 12,
+   "matched_subtle": 12,
+   "matched_strong": 12,
+   "viol_subtle": 2,
+   "viol_strong": 1
+  },
+  "agenda": {
+   "matched_clean": 6,
+   "matched_subtle": 6,
+   "matched_strong": 6,
+   "viol_strong": 2
+  },
+  "event": {
+   "matched_clean": 5,
+   "matched_subtle": 5,
+   "matched_strong": 5,
+   "viol_strong": 4,
+   "viol_subtle": 2
+  }
+ },
+ "dup_6gram_jaccard_clean": {
+  "Commercial ad": {
+   "pairs": 66,
+   "median": 0.013,
+   "p99": 0.099,
+   "max": 0.099
+  },
+  "Event": {
+   "pairs": 21,
+   "median": 0.0,
+   "p99": 0.007,
+   "max": 0.007
+  },
+  "Food label": {
+   "pairs": 120,
+   "median": 0.008,
+   "p99": 0.086,
+   "max": 0.102
+  },
+  "Public-service poster": {
+   "pairs": 21,
+   "median": 0.005,
+   "p99": 0.037,
+   "max": 0.037
+  },
+  "Supplement": {
+   "pairs": 28,
+   "median": 0.096,
+   "p99": 0.178,
+   "max": 0.178
+  }
+ },
+ "exact_duplicate_prompts": 0,
+ "density": {
+  "Very High": 117,
+  "High": 33
+ }
+}

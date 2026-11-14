@@ -1,0 +1,63 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_krill_oil", "sub_category": "Omega-3 & fish oil", "regimes": ["US", "EU"],
+ "names": ["Antarctic Krill Oil 1000mg", "Krill Oil 500mg with Astaxanthin"],
+ "form": "softgel", "pack": "bottle", "counts": [60, 120], "count_is_net": False, "price_eur": [14.0, 32.0],
+ "dose": {"units": 2, "unit_word": "softgels", "directions": "Take 2 softgels daily with a meal."},
+ "actives": [A("Krill oil", 1000, "mg", None), A("Phospholipids", 400, "mg", None), A("EPA", 120, "mg", None),
+             A("DHA", 60, "mg", None), A("Astaxanthin", 0.4, "mg", None)],
+ "ingredients": [I("Krill oil (CRUSTACEANS - Antarctic krill)", 1000, "Krill oil (krill)", True),
+                 I("Capsule shell (bovine gelatine, glycerol)", 450, "Softgel (bovine gelatin, glycerin)"),
+                 I("Natural astaxanthin (Haematococcus pluvialis algae extract)", 2, "Haematococcus pluvialis extract (astaxanthin)", True),
+                 I("Natural vanilla flavouring", 1, "Natural vanilla flavor")],
+ "hero_ing": "Natural astaxanthin (Haematococcus pluvialis algae extract)",
+ "eu_claims": [],
+ "us_claims": ["Supports cardiovascular health", "Supports joint comfort", "Phospholipid-bound omega-3s for absorption"],
+ "upgrade": ["Ten times stronger than fish oil", "Turbo-charges your heart"],
+ "selling": ["Phospholipid omega-3 from Antarctic krill", "Natural astaxanthin", "Small softgels, no fishy burps", "Sustainably harvested krill"],
+ "exag_subtle": ["Eases stiff joints within days", "Keeps your heart pumping like new"],
+ "exag_strong": ["Reverses heart disease", "Cures PMS and period pain", "Lowers cholesterol - stop your statins"],
+ "unsub": ["48x more antioxidant power than fish oil", "Proven superior absorption"],
+ "attr_tamper": "Clinical-strength omega-3",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for people with shellfish or seafood allergy, during pregnancy, or for those taking anticoagulants.",
+ "pop_tamper": "Safe even if you are allergic to shellfish.",
+ "extra_warnings": ["Contains crustaceans (krill). Do not take if allergic to shellfish."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C, away from direct sunlight.", "allergens": ["crustaceans:krill"],
+ "visual": "dark red bottle, icy-blue label with krill illustration, ruby softgels"},
+{"id": "s_algae_omega3_vegan", "sub_category": "Omega-3 & fish oil", "regimes": ["US", "EU"],
+ "names": ["Vegan Omega-3 Algae Oil", "Plant Omega-3 DHA & EPA from Algae"],
+ "form": "softgel", "pack": "bottle", "counts": [60], "count_is_net": False, "price_eur": [14.0, 26.0],
+ "dose": {"units": 2, "unit_word": "softgels", "directions": "Take 2 softgels daily with food."},
+ "actives": [A("Algal oil (Schizochytrium sp.)", 1000, "mg", None), A("DHA", 300, "mg", None), A("EPA", 150, "mg", None)],
+ "ingredients": [I("Algal oil (Schizochytrium sp.)", 1000, "Algal oil (Schizochytrium sp.)", True),
+                 I("Capsule shell (modified maize starch, carrageenan, glycerol, sorbitol)", 500, "Softgel (modified corn starch, carrageenan, glycerin, sorbitol)"),
+                 I("Sunflower lecithin", 10), I("Natural orange oil", 5), I("Antioxidant: rosemary extract", 4, "Rosemary extract"),
+                 I("Antioxidant: mixed tocopherols", 3, "Mixed tocopherols")],
+ "hero_ing": "Natural orange oil",
+ "eu_claims": ["DHA contributes to maintenance of normal brain function", "DHA contributes to the maintenance of normal vision",
+               "EPA and DHA contribute to the normal function of the heart"],
+ "us_claims": ["Supports heart, brain and eye health", "Plant-based omega-3 for vegans"],
+ "upgrade": ["Boosts your brainpower overnight", "Better than fish in every way"],
+ "selling": ["100% plant-based omega-3 - the original source fish get it from", "Vegan softgel, no gelatine", "Free from ocean pollutants", "Light orange taste"],
+ "exag_subtle": ["Improves focus and memory", "Keeps your eyesight sharp"],
+ "exag_strong": ["Prevents dementia", "Treats ADHD in children", "Cures dry macular degeneration"],
+ "unsub": ["Clinically proven to raise IQ", "Endorsed by vegan nutritionists worldwide"],
+ "attr_tamper": "Medical-grade DHA",
+ "suitable": "Adults, vegetarians and vegans",
+ "not_suitable": "Not suitable for children. Consult your doctor if you take anticoagulants.",
+ "pop_tamper": "Suitable for infants and toddlers at the adult dose.",
+ "extra_warnings": ["Excessive consumption may produce laxative effects."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C, away from direct sunlight.", "allergens": [],
+ "visual": "green bottle with leaf and water-drop logo, amber vegan softgels"},
+]

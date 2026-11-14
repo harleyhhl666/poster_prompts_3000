@@ -1,0 +1,62 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_omega3_fish_oil_1000", "sub_category": "Omega-3 & fish oil", "regimes": ["US", "EU"],
+ "names": ["Omega-3 Fish Oil 1000mg", "Wild Omega-3 Fish Oil 1000mg Lemon"],
+ "form": "softgel", "pack": "bottle", "counts": [90, 180], "count_is_net": False, "price_eur": [6.0, 17.0],
+ "dose": {"units": 1, "unit_word": "softgel", "directions": "Take 1 softgel daily with food."},
+ "actives": [A("Fish oil", 1000, "mg", None), A("EPA (eicosapentaenoic acid)", 180, "mg", None), A("DHA (docosahexaenoic acid)", 120, "mg", None)],
+ "ingredients": [I("Fish oil (FISH - anchovy, sardine, mackerel)", 1000, "Fish oil (anchovy, sardine, mackerel)", True),
+                 I("Capsule shell (bovine gelatine, glycerol)", 400, "Softgel (bovine gelatin, glycerin)"),
+                 I("Natural lemon oil", 5, "Natural lemon oil"), I("Antioxidant: mixed tocopherols", 2, "Mixed tocopherols")],
+ "hero_ing": "Natural lemon oil",
+ "eu_claims": ["EPA and DHA contribute to the normal function of the heart"],
+ "us_claims": ["Supports heart health", "Supports brain and eye function", "Supports joint comfort"],
+ "upgrade": ["Protects your heart for life", "Unclogs arteries naturally"],
+ "selling": ["300mg omega-3 per softgel", "Lemon flavour - no fishy aftertaste", "Molecularly distilled for purity", "From sustainably caught fish"],
+ "exag_subtle": ["Keeps your heart young", "Sharpens your memory"],
+ "exag_strong": ["Prevents heart attacks and strokes", "Lowers cholesterol without statins", "Cures arthritis pain"],
+ "unsub": ["Cardiologists' No.1 choice", "Proven to cut heart risk by 50%"],
+ "attr_tamper": "Prescription-grade omega-3",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for people with a fish allergy. Consult your doctor if taking anticoagulant medication or before surgery.",
+ "pop_tamper": "Safe for people with fish allergies and anyone on blood thinners.",
+ "extra_warnings": ["Contains fish.", "Consult your doctor if you take blood-thinning medication."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C, away from direct sunlight.", "allergens": ["fish:anchovy", "fish:sardine", "fish:mackerel"],
+ "visual": "amber bottle with deep-blue label, fish and wave icon, clear golden softgels"},
+{"id": "s_cod_liver_oil", "sub_category": "Omega-3 & fish oil", "regimes": ["US", "EU"],
+ "names": ["Cod Liver Oil 1000mg", "Pure Cod Liver Oil with Vitamins A & D"],
+ "form": "softgel", "pack": "bottle", "counts": [60, 120], "count_is_net": False, "price_eur": [4.0, 12.0],
+ "dose": {"units": 1, "unit_word": "softgel", "directions": "Take 1 softgel daily with food."},
+ "actives": [A("Cod liver oil", 1000, "mg", None), A("EPA", 70, "mg", None), A("DHA", 100, "mg", None),
+             A("Vitamin A (as retinyl palmitate)", 240, "µg", "vita"), A("Vitamin D3 (as cholecalciferol)", 5, "µg", "vitd")],
+ "ingredients": [I("Cod liver oil (FISH)", 1000, "Cod liver oil (cod)", True),
+                 I("Capsule shell (bovine gelatine, glycerol)", 400, "Softgel (bovine gelatin, glycerin)"),
+                 I("Antioxidant: mixed tocopherols", 3, "Mixed tocopherols"), I("Vitamin A (retinyl palmitate)", 0.44, "Retinyl palmitate", True),
+                 I("Vitamin D3 (cholecalciferol)", 0.005, "Cholecalciferol", True)],
+ "hero_ing": "Vitamin D3 (cholecalciferol)",
+ "eu_claims": ["Vitamin D contributes to the maintenance of normal bones", "Vitamin D contributes to the normal function of the immune system",
+               "Vitamin A contributes to the maintenance of normal vision", "Vitamin A contributes to the normal function of the immune system"],
+ "us_claims": ["Supports healthy bones", "Supports immune function", "Supports normal vision"],
+ "upgrade": ["Oils stiff joints back to youth", "Grandma's cure-all in a capsule"],
+ "selling": ["Traditional cod liver oil", "Naturally rich in vitamins A and D", "Once daily", "Odourless softgel"],
+ "exag_subtle": ["Keeps joints supple for life", "Helps you breeze through winter"],
+ "exag_strong": ["Cures rheumatism and arthritis", "Prevents rickets and osteoporosis", "Treats dry eye disease"],
+ "unsub": ["Trusted by grandmothers for 100 years - proven", "Doctors' favourite family oil"],
+ "attr_tamper": "Medicinal-grade liver oil",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable during pregnancy or for people with a fish allergy. Do not take with other vitamin A supplements.",
+ "pop_tamper": "Ideal for pregnant women and babies.",
+ "extra_warnings": ["Contains vitamin A: do not take if pregnant or planning a pregnancy.", "Contains fish."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C, away from direct sunlight.", "allergens": ["fish:cod"],
+ "visual": "brown bottle with retro navy label and cod illustration"},
+]

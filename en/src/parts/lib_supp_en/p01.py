@@ -1,0 +1,61 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_vitd3_softgel", "sub_category": "Vitamins & minerals", "regimes": ["US", "EU"],
+ "names": ["Vitamin D3 25µg (1000 IU)", "Vitamin D3 High Strength 50µg (2000 IU)"],
+ "form": "softgel", "pack": "bottle", "counts": [90, 180], "count_is_net": False, "price_eur": [5.0, 15.0],
+ "dose": {"units": 1, "unit_word": "softgel", "directions": "Take 1 softgel daily with a meal."},
+ "actives": [A("Vitamin D3 (as cholecalciferol)", 25, "µg", "vitd", [0]), A("Vitamin D3 (as cholecalciferol)", 50, "µg", "vitd", [1])],
+ "ingredients": [I("Extra virgin olive oil", 280), I("Capsule shell (bovine gelatine, glycerol)", 140, "Softgel (bovine gelatin, glycerin)"),
+                 I("Cholecalciferol", 0.05, "Cholecalciferol", True)],
+ "hero_ing": "Cholecalciferol",
+ "eu_claims": ["Vitamin D contributes to the maintenance of normal bones", "Vitamin D contributes to the maintenance of normal teeth",
+               "Vitamin D contributes to the maintenance of normal muscle function", "Vitamin D contributes to the normal function of the immune system"],
+ "us_claims": ["Supports healthy bones and teeth", "Supports immune function", "Helps maintain normal muscle function"],
+ "upgrade": ["Strengthens bones and supercharges immunity", "Your sunshine shield all winter long"],
+ "selling": ["Once-daily softgel", "In extra virgin olive oil for absorption", "Small, easy-to-swallow softgel", "Made in a GMP-certified facility"],
+ "exag_subtle": ["Helps you get through winter without catching a cold", "Keeps bones strong for life"],
+ "exag_strong": ["Prevents flu and COVID-19", "Reverses osteoporosis in 8 weeks", "Cures seasonal depression"],
+ "unsub": ["Clinically proven 97% absorption", "Recommended by 9 out of 10 doctors"],
+ "attr_tamper": "Prescription-strength pharmaceutical grade",
+ "suitable": "Adults and children over 12 years",
+ "not_suitable": "Not suitable for children under 12. Consult your doctor if pregnant, breastfeeding or taking medication.",
+ "pop_tamper": "Safe for the whole family, including babies and pregnant women, at any dose.",
+ "extra_warnings": [], "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C in a dry place, away from direct sunlight.", "allergens": [],
+ "visual": "amber glass bottle, white label with yellow sun icon, golden softgels"},
+{"id": "s_vitc1000_effervescent", "sub_category": "Immune support", "regimes": ["US", "EU"],
+ "names": ["Vitamin C 1000mg + Zinc Effervescent Orange", "Immune Fizz Vitamin C 1000mg & Zinc 10mg"],
+ "form": "effervescent tablet", "pack": "tube", "counts": [10, 20], "count_is_net": False, "price_eur": [2.5, 6.5],
+ "dose": {"units": 1, "unit_word": "tablet", "directions": "Dissolve 1 tablet in a glass of water (200 ml) once daily."},
+ "actives": [A("Vitamin C (as L-ascorbic acid)", 1000, "mg", "vitc"), A("Zinc (as zinc citrate)", 10, "mg", "zinc")],
+ "ingredients": [I("Acid: citric acid", 1400), I("Acidity regulator: sodium hydrogen carbonate", 1050, "Sodium bicarbonate"),
+                 I("Vitamin C (L-ascorbic acid)", 1000, "Ascorbic acid", True), I("Sweetener: sorbitol", 350, "Sorbitol"),
+                 I("Orange flavouring", 90, "Natural orange flavor"), I("Zinc citrate", 32, "Zinc citrate", True),
+                 I("Colour: beta-carotene", 8, "Beta-carotene (color)"), I("Sweetener: sucralose", 6, "Sucralose")],
+ "hero_ing": "Zinc citrate",
+ "eu_claims": ["Vitamin C contributes to the normal function of the immune system", "Vitamin C contributes to the reduction of tiredness and fatigue",
+               "Vitamin C contributes to maintain the normal function of the immune system during and after intense physical exercise",
+               "Zinc contributes to the normal function of the immune system"],
+ "us_claims": ["Supports immune health", "Antioxidant support", "Supports normal energy levels"],
+ "upgrade": ["Boosts your immune defences instantly", "Maximum immune power in one fizzy glass"],
+ "selling": ["Great-tasting orange flavour", "Sugar-free fizz", "1000mg vitamin C plus zinc", "Handy tube for home or office"],
+ "exag_subtle": ["Stops colds in their tracks", "Your daily shield against winter bugs"],
+ "exag_strong": ["Cures the common cold in 24 hours", "Prevents flu better than the vaccine", "Kills viruses in your body"],
+ "unsub": ["Clinically proven to halve sick days", "No.1 choice of pharmacists"],
+ "attr_tamper": "Hospital-strength immune formula",
+ "suitable": "Adults and children over 12 years",
+ "not_suitable": "Not suitable for children under 12 or people on a sodium-restricted diet. Consult your doctor if you have kidney stones.",
+ "pop_tamper": "Suitable for toddlers from 1 year and safe to take several times a day.",
+ "extra_warnings": ["Contains approx. 285 mg sodium per tablet.", "Excessive consumption may produce laxative effects."],
+ "shelf": [24, "months"], "shelf_tamper": [60, "months"],
+ "storage": "Keep the tube tightly closed after use. Store below 25°C in a dry place.", "allergens": [],
+ "visual": "orange plastic tube with fizzing glass and citrus slices on label"},
+]

@@ -1,0 +1,67 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+# Melatonin: dietary supplement in the US only; prescription-only medicine in UK/IE -> US regime only.
+{"id": "s_melatonin_sleep_tab", "sub_category": "Sleep & relaxation", "regimes": ["US"],
+ "names": ["Melatonin 1mg Sleep Support", "Melatonin 3mg Extra Strength Sleep"],
+ "form": "tablet", "pack": "bottle", "counts": [60, 120], "count_is_net": False, "price_eur": [4.5, 12.0],
+ "dose": {"units": 1, "unit_word": "tablet", "directions": "Adults: take 1 tablet 30 minutes before bedtime. Do not exceed 1 tablet per day."},
+ "actives": [A("Melatonin", 1, "mg", None, [0]), A("Melatonin", 3, "mg", None, [1])],
+ "ingredients": [I("Microcrystalline cellulose", 120, "Microcrystalline cellulose"), I("Dicalcium phosphate", 60, "Dicalcium phosphate"),
+                 I("Melatonin", 3, "Melatonin", True), I("Stearic acid (vegetable)", 2, "Vegetable stearic acid"),
+                 I("Silicon dioxide", 1, "Silicon dioxide")],
+ "hero_ing": "Melatonin",
+ "eu_claims": [],
+ "us_claims": ["Supports restful sleep", "Helps you fall asleep faster for occasional sleeplessness", "Supports a healthy sleep-wake cycle"],
+ "upgrade": ["Knocks you out for a deep 8-hour sleep", "Resets your body clock overnight"],
+ "selling": ["Gentle 1mg or 3mg strength", "Small, easy-to-swallow tablet", "Vegan-friendly formula", "Made in a GMP-certified facility"],
+ "exag_subtle": ["Wake up refreshed every single morning", "Say goodbye to restless nights"],
+ "exag_strong": ["Cures chronic insomnia permanently", "Replaces prescription sleeping pills", "Treats anxiety and depression"],
+ "unsub": ["Clinically proven to double deep sleep", "Sleep doctors' No.1 choice"],
+ "attr_tamper": "Prescription-strength sleep medicine",
+ "suitable": "Adults 18 years and over",
+ "not_suitable": "Not for use by children or teenagers under 18, or if pregnant or breastfeeding. Consult your doctor if taking medication.",
+ "pop_tamper": "Safe for children and babies to help them settle at night.",
+ "extra_warnings": ["May cause drowsiness. Do not drive or operate machinery after use.",
+                    "Consult your doctor before use if taking blood thinners, sedatives or immunosuppressants, or if you have an autoimmune condition."],
+ "shelf": [24, "months"], "shelf_tamper": [60, "months"],
+ "storage": "Store below 25°C in a dry place, away from direct sunlight.", "allergens": [],
+ "visual": "dark blue plastic bottle, label with crescent moon and stars, small white tablets"},
+{"id": "s_magnesium_chamomile_sleep", "sub_category": "Sleep & relaxation", "regimes": ["US", "EU"],
+ "names": ["Magnesium 150mg + Chamomile Night Time", "Calm Night Magnesium with Chamomile & B6"],
+ "form": "capsule", "pack": "bottle", "counts": [60, 120], "count_is_net": False, "price_eur": [6.0, 16.0],
+ "dose": {"units": 2, "unit_word": "capsules", "directions": "Take 2 capsules daily with water, in the evening."},
+ "actives": [A("Magnesium (as magnesium oxide)", 150, "mg", "magnesium"), A("Vitamin B6 (as pyridoxine hydrochloride)", 1.4, "mg", "vitb6"),
+             A("Chamomile flower extract (Matricaria chamomilla, 4:1)", 200, "mg", None)],
+ "ingredients": [I("Magnesium oxide", 250, "Magnesium oxide", True),
+                 I("Chamomile flower extract (Matricaria chamomilla)", 200, "Chamomile (Matricaria chamomilla) flower extract", True),
+                 I("Capsule shell (hydroxypropyl methylcellulose)", 190, "Vegetable capsule (hydroxypropyl methylcellulose)"),
+                 I("Bulking agent: microcrystalline cellulose", 40, "Microcrystalline cellulose"),
+                 I("Anti-caking agent: magnesium salts of fatty acids", 6, "Magnesium stearate"),
+                 I("Pyridoxine hydrochloride", 1.7, "Pyridoxine hydrochloride", True)],
+ "hero_ing": "Chamomile flower extract (Matricaria chamomilla)",
+ "eu_claims": ["Magnesium contributes to normal psychological function", "Magnesium contributes to normal functioning of the nervous system",
+               "Magnesium contributes to a reduction of tiredness and fatigue", "Vitamin B6 contributes to normal psychological function"],
+ "us_claims": ["Supports relaxation and a calm evening routine", "Supports normal nervous system function", "Supports normal muscle function"],
+ "upgrade": ["Melts away stress for deep, restorative sleep", "Switches off your racing mind instantly"],
+ "selling": ["Evening formula with chamomile", "150mg magnesium plus vitamin B6", "Vegan capsules", "Made in a GMP-certified facility"],
+ "exag_subtle": ["Guarantees a full night's sleep", "Leaves stress behind for good"],
+ "exag_strong": ["Cures insomnia without pills", "Treats anxiety disorders naturally", "Prevents restless leg syndrome"],
+ "unsub": ["Clinically proven to improve sleep by 80%", "Recommended by sleep therapists everywhere"],
+ "attr_tamper": "Clinical-strength sedative formula",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for children. Consult your doctor if pregnant, breastfeeding or taking medication.",
+ "pop_tamper": "Safe for all ages, including pregnant women and toddlers.",
+ "extra_warnings": ["Do not use if you are allergic to chamomile or other plants of the daisy family.",
+                    "Excessive consumption may produce laxative effects."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C in a dry place, away from direct sunlight.", "allergens": [],
+ "visual": "lavender-purple bottle, label with chamomile flowers and night sky, white capsules"},
+]

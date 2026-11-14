@@ -1,0 +1,63 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_coq10_softgel", "sub_category": "Coenzyme Q10", "regimes": ["US", "EU"],
+ "names": ["Coenzyme Q10 100mg with Vitamin B1", "Coenzyme Q10 200mg High Strength"],
+ "form": "softgel", "pack": "bottle", "counts": [30, 60], "count_is_net": False, "price_eur": [10.0, 30.0],
+ "dose": {"units": 1, "unit_word": "softgel", "directions": "Take 1 softgel daily with a meal containing fat."},
+ "actives": [A("Coenzyme Q10 (as ubiquinone)", 100, "mg", None, [0]), A("Coenzyme Q10 (as ubiquinone)", 200, "mg", None, [1]),
+             A("Thiamin (vitamin B1)", 1.1, "mg", "thiamin")],
+ "ingredients": [I("Soybean oil", 250, "Soybean oil"), I("Capsule shell (bovine gelatine, glycerol)", 220, "Softgel (bovine gelatin, glycerin)"),
+                 I("Coenzyme Q10 (ubiquinone)", 200, "Coenzyme Q10 (ubiquinone)", True), I("Thickener: yellow beeswax", 25, "Yellow beeswax"),
+                 I("Emulsifier: SOYA lecithin", 10, "Soy lecithin"), I("Thiamin hydrochloride", 1.4, "Thiamine hydrochloride", True)],
+ "hero_ing": "Coenzyme Q10 (ubiquinone)",
+ "eu_claims": ["Thiamine contributes to the normal function of the heart", "Thiamine contributes to normal energy-yielding metabolism"],
+ "us_claims": ["Supports heart health", "Supports cellular energy production", "Antioxidant support"],
+ "upgrade": ["Recharges your heart like a battery", "Youthful energy at any age"],
+ "selling": ["High-strength CoQ10", "In an oil base for absorption", "With vitamin B1", "Once daily"],
+ "exag_subtle": ["Gives you the energy of your 20s", "Keeps your heart young"],
+ "exag_strong": ["Treats heart failure", "Lowers blood pressure without medication", "Cures statin muscle pain"],
+ "unsub": ["Recommended by cardiologists", "Clinically proven to boost energy 80%"],
+ "attr_tamper": "Cardiology prescription strength",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for children, during pregnancy or breastfeeding. Consult your doctor if taking warfarin or blood pressure medication.",
+ "pop_tamper": "Safe to combine with any medication, including warfarin.",
+ "extra_warnings": ["Contains soya.", "May reduce the effect of warfarin; consult your doctor."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C, away from direct sunlight.", "allergens": ["soybeans"],
+ "visual": "dark-red bottle with heart outline, orange translucent softgels"},
+{"id": "s_turmeric_pepper", "sub_category": "Botanicals", "regimes": ["US", "EU"],
+ "names": ["Turmeric 500mg with Black Pepper", "Turmeric Curcumin Extract 95% + Piperine"],
+ "form": "capsule", "pack": "bottle", "counts": [60, 120], "count_is_net": False, "price_eur": [8.0, 20.0],
+ "dose": {"units": 1, "unit_word": "capsule", "directions": "Take 1 capsule daily with food."},
+ "actives": [A("Turmeric root extract (95% curcuminoids)", 500, "mg", None), A("Turmeric root powder", 100, "mg", None),
+             A("Black pepper extract (95% piperine)", 5, "mg", None)],
+ "ingredients": [I("Turmeric root extract (Curcuma longa, 95% curcuminoids)", 500, "Turmeric (Curcuma longa) root extract", True),
+                 I("Turmeric root powder", 100, "Turmeric root powder", True),
+                 I("Capsule shell: hydroxypropyl methylcellulose", 95, "Vegetable capsule (hypromellose)"),
+                 I("Black pepper extract (95% piperine)", 5, "Black pepper (Piper nigrum) fruit extract", True),
+                 I("Anti-caking agent: magnesium stearate", 3, "Magnesium stearate")],
+ "hero_ing": "Black pepper extract (95% piperine)",
+ "eu_claims": [],
+ "us_claims": ["Supports joint comfort and mobility", "Provides antioxidant support", "Supports a healthy response to exercise"],
+ "upgrade": ["Nature's most powerful anti-inflammatory", "Works as fast as painkillers"],
+ "selling": ["95% curcuminoids", "With black pepper extract", "Vegan capsule", "Once daily"],
+ "exag_subtle": ["Soothes aching joints overnight", "Fights inflammation naturally"],
+ "exag_strong": ["Cures arthritis", "Replaces ibuprofen and prescription anti-inflammatories", "Shrinks tumours"],
+ "unsub": ["Proven more effective than 14 drugs", "Ancient Ayurvedic cure backed by science"],
+ "attr_tamper": "Medicinal-strength anti-inflammatory",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for children, during pregnancy or breastfeeding, or for people with gallbladder or liver problems. Consult your doctor if taking anticoagulants.",
+ "pop_tamper": "Safe for everyone, including those with liver conditions and on blood thinners.",
+ "extra_warnings": ["Rare cases of liver injury have been reported with turmeric supplements; stop use if you experience abdominal pain, dark urine or yellowing of the skin."],
+ "shelf": [36, "months"], "shelf_tamper": [60, "months"],
+ "storage": "Store below 25°C in a dry place.", "allergens": [],
+ "visual": "amber glass jar with saffron-yellow label and turmeric root drawing"},
+]

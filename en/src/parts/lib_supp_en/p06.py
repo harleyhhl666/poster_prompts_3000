@@ -1,0 +1,61 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_zinc_vitc_lozenge", "sub_category": "Immune support", "regimes": ["US", "EU"],
+ "names": ["Zinc & Vitamin C Lozenges Honey & Lemon", "Zinc 5mg Throat Lozenges"],
+ "form": "lozenge", "pack": "blister box", "counts": [24, 48], "count_is_net": False, "price_eur": [3.5, 8.0],
+ "dose": {"units": 3, "unit_word": "lozenges", "directions": "Dissolve 1 lozenge slowly in the mouth every 3-4 hours, up to 3 lozenges daily."},
+ "actives": [A("Zinc (as zinc gluconate)", 15, "mg", "zinc"), A("Vitamin C (as sodium L-ascorbate)", 180, "mg", "vitc")],
+ "ingredients": [I("Sweetener: isomalt", 2900, "Isomalt"), I("Sodium L-ascorbate", 203, "Sodium ascorbate", True), I("Honey", 150),
+                 I("Zinc gluconate", 105, "Zinc gluconate", True), I("Lemon flavouring", 60, "Natural lemon flavor"),
+                 I("Acid: citric acid", 50, "Citric acid"), I("Anti-caking agent: magnesium stearate", 30, "Magnesium stearate"),
+                 I("Menthol", 6), I("Sweetener: sucralose", 3, "Sucralose")],
+ "hero_ing": "Honey",
+ "eu_claims": ["Zinc contributes to the normal function of the immune system", "Vitamin C contributes to the normal function of the immune system"],
+ "us_claims": ["Supports immune system function", "Soothing honey and lemon taste"],
+ "upgrade": ["Knocks out colds overnight", "Your instant immune boost"],
+ "selling": ["Soothing honey & lemon flavour", "Slow-dissolving lozenge", "Sugar-free", "Pocket-size blister pack"],
+ "exag_subtle": ["Shortens colds by days", "Gets you back on your feet fast"],
+ "exag_strong": ["Cures sore throats and tonsillitis", "Kills cold viruses on contact", "Prevents chest infections"],
+ "unsub": ["Clinically proven to halve cold duration", "Pharmacists' No.1 recommendation"],
+ "attr_tamper": "Medicated antiviral lozenge",
+ "suitable": "Adults and children over 12 years",
+ "not_suitable": "Not suitable for children under 12. Do not exceed 3 lozenges a day.",
+ "pop_tamper": "Suitable for toddlers; use as often as needed.",
+ "extra_warnings": ["Excessive consumption may produce laxative effects."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Store below 25°C in a dry place.", "allergens": [],
+ "visual": "yellow carton with honey dipper and lemon slice, amber lozenges in blister"},
+{"id": "s_b12_spray", "sub_category": "Vitamins & minerals", "regimes": ["US", "EU"],
+ "names": ["Vitamin B12 1000µg Oral Spray", "Vegan B12 Spray Cherry"],
+ "form": "liquid", "pack": "bottle", "counts": [25, 50], "count_is_net": True, "price_eur": [7.0, 15.0],
+ "dose": {"units": 4, "unit_word": "sprays", "directions": "Spray 4 times into the mouth once daily. Shake well before use."},
+ "actives": [A("Vitamin B12 (as methylcobalamin)", 1000, "µg", "vitb12")],
+ "ingredients": [I("Water", 380), I("Glycerol", 80, "Vegetable glycerin"), I("Sweetener: xylitol", 30, "Xylitol"),
+                 I("Natural cherry flavouring", 5, "Natural cherry flavor"), I("Acid: citric acid", 2, "Citric acid"),
+                 I("Methylcobalamin", 1.0, "Methylcobalamin", True), I("Preservative: potassium sorbate", 1.0, "Potassium sorbate")],
+ "hero_ing": "Methylcobalamin",
+ "eu_claims": ["Vitamin B12 contributes to the reduction of tiredness and fatigue", "Vitamin B12 contributes to normal energy-yielding metabolism",
+               "Vitamin B12 contributes to normal functioning of the nervous system", "Vitamin B12 contributes to normal psychological function"],
+ "us_claims": ["Supports natural energy production", "Supports nervous system health", "Ideal for plant-based diets"],
+ "upgrade": ["Instant energy surge in every spray", "Supercharges your brain"],
+ "selling": ["Fast and convenient oral spray", "Methylcobalamin form", "Suitable for vegans", "Natural cherry taste"],
+ "exag_subtle": ["Wipe out tiredness with every spray", "Boosts energy within minutes"],
+ "exag_strong": ["Cures pernicious anaemia - no injections needed", "Reverses nerve damage", "Treats depression"],
+ "unsub": ["Absorbed 5x faster than tablets", "No.1 spray recommended by vegan doctors"],
+ "attr_tamper": "Injection-strength B12",
+ "suitable": "Adults, including vegans and vegetarians",
+ "not_suitable": "Not suitable for children. If you have been diagnosed with B12 deficiency, follow your doctor's advice.",
+ "pop_tamper": "Safe for babies from birth.",
+ "extra_warnings": ["Contains xylitol: keep away from pets."],
+ "shelf": [18, "months"], "shelf_tamper": [36, "months"],
+ "storage": "Store below 25°C. Use within 3 months of opening.", "allergens": [],
+ "visual": "slim dark-red spray bottle with pink label and cherry illustration"},
+]

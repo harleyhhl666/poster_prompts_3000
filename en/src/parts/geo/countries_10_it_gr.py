@@ -1,0 +1,67 @@
+# Italy and Greece.
+COUNTRIES = {
+    "IT": {"name": "Italy", "region": "EU", "currency": "EUR", "lang_context": "international", "date_style": "eu",
+           "phone_fmt": ["02 #### ####", "06 #### ####", "+39 02 #### ####", "+39 055 ### ####", "+39 3## ### ####"],
+           "postcode_fmt": ["#####"],
+           "cities": [{"city": "Rome", "area": "Lazio", "postcode": "001##", "phone": "06 #### ####"},
+                      {"city": "Milan", "area": "Lombardy", "postcode": "201##", "phone": "02 #### ####"},
+                      {"city": "Bergamo", "area": "Lombardy", "postcode": "2412#", "phone": "035 ### ####"},
+                      {"city": "Turin", "area": "Piedmont", "postcode": "101##", "phone": "011 ### ####"},
+                      {"city": "Bologna", "area": "Emilia-Romagna", "postcode": "401##", "phone": "051 ### ####"},
+                      {"city": "Florence", "area": "Tuscany", "postcode": "501##", "phone": "055 ### ####"},
+                      {"city": "Pisa", "area": "Tuscany", "postcode": "5612#", "phone": "050 ### ###"},
+                      {"city": "Naples", "area": "Campania", "postcode": "801##", "phone": "081 ### ####"},
+                      {"city": "Verona", "area": "Veneto", "postcode": "371##", "phone": "045 ### ####"},
+                      {"city": "Padua", "area": "Veneto", "postcode": "351##", "phone": "049 ### ####"},
+                      {"city": "Genoa", "area": "Liguria", "postcode": "161##", "phone": "010 ### ####"},
+                      {"city": "Bari", "area": "Apulia", "postcode": "701##", "phone": "080 ### ####"},
+                      {"city": "Palermo", "area": "Sicily", "postcode": "901##", "phone": "091 ### ####"},
+                      {"city": "Trento", "area": "Trentino-Alto Adige", "postcode": "3812#", "phone": "0461 ######"},
+                      {"city": "Perugia", "area": "Umbria", "postcode": "061##", "phone": "075 ### ####"},
+                      {"city": "Cagliari", "area": "Sardinia", "postcode": "091##", "phone": "070 ### ####"}]},
+    "GR": {"name": "Greece", "region": "EU", "currency": "EUR", "lang_context": "international", "date_style": "eu",
+           "phone_fmt": ["210 ### ####", "+30 210 ### ####", "2310 ######", "+30 69# ### ####"],
+           "postcode_fmt": ["### ##"],
+           "cities": [{"city": "Athens", "area": "Attica", "postcode": "10# ##", "phone": "210 ### ####"},
+                      {"city": "Piraeus", "area": "Attica", "postcode": "185 ##", "phone": "210 4## ####"},
+                      {"city": "Thessaloniki", "area": "Central Macedonia", "postcode": "546 ##", "phone": "2310 ######"},
+                      {"city": "Patras", "area": "Western Greece", "postcode": "262 ##", "phone": "2610 ######"},
+                      {"city": "Heraklion", "area": "Crete", "postcode": "712 ##", "phone": "2810 ######"},
+                      {"city": "Chania", "area": "Crete", "postcode": "731 ##", "phone": "28210 #####"},
+                      {"city": "Larissa", "area": "Thessaly", "postcode": "412 ##", "phone": "2410 ######"},
+                      {"city": "Volos", "area": "Thessaly", "postcode": "382 ##", "phone": "24210 #####"},
+                      {"city": "Ioannina", "area": "Epirus", "postcode": "452 ##", "phone": "26510 #####"},
+                      {"city": "Rhodes", "area": "South Aegean", "postcode": "851 ##", "phone": "22410 #####"},
+                      {"city": "Kalamata", "area": "Peloponnese", "postcode": "241 ##", "phone": "27210 #####"},
+                      {"city": "Corfu", "area": "Ionian Islands", "postcode": "491 ##", "phone": "26610 #####"}]},
+}
+
+STREETS = {
+    "IT": ["Via Roma", "Via Garibaldi", "Via dei Tigli", "Via della Chiesa", "Via del Mulino", "Via delle Rose",
+           "Via Mazzini", "Via Verdi", "Via dei Giardini", "Via della Stazione", "Piazza del Mercato", "Vicolo Stretto",
+           "Via degli Ulivi", "Via XX Settembre", "Via Cavour", "Via delle Viole", "Via del Pozzo"],
+    "GR": ["Eleftherias", "Kyprou", "Dimokratias", "Agiou Georgiou", "Kolokotroni", "Riga Fereou",
+           "Ethnikis Antistaseos", "Papaflessa", "Evangelistrias", "Kanari", "Miaouli", "Lemesou", "Anthemon",
+           "Elaion", "Platanon", "Agiou Nikolaou"]}
+
+VENUES = {
+    "IT": ["Centro Civico dei Tigli", "Mercato Coperto del Mulino", "Biblioteca di Quartiere Le Viole",
+           "Aula Magna, Polo Universitario degli Ulivi", "Centro Commerciale Le Rose del Borgo",
+           "Sala Parrocchiale San Rocco", "Circolo Anziani Il Pozzo", "Casa del Quartiere Giardini",
+           "Sala Polivalente della Stazione"],
+    "GR": ["Platanon Cultural Centre", "Anthemon Street Market Hall", "Elaion Municipal Library",
+           "Lecture Hall B, Platanos Campus", "Galini Shopping Centre", "Kanari Senior Citizens' Day Centre",
+           "Agios Georgios Parish Hall", "Kipos Multi-purpose Hall", "Evangelistrias Community Centre"]}
+
+EN_CONTEXT = {
+    "IT": ["English-language poster in the tourist old town of {city}",
+           "flyer at an international school in {city}",
+           "poster on the {city} university campus for Erasmus and study-abroad students",
+           "notice for the English-speaking expat association in {city}",
+           "English edition of a supermarket app promotion shown in {city}",
+           "food-court advert at {city} airport"],
+    "GR": ["poster aimed at summer tourists in the harbour area of {city}",
+           "flyer at an international school in {city}",
+           "poster on the {city} university campus for Erasmus students",
+           "English-language advert at a supermarket near the ferry or cruise port of {city}",
+           "airport arrivals-hall advert at {city} airport"]}

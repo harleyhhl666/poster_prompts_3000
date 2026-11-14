@@ -1,0 +1,63 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_live_cultures_capsule", "sub_category": "Probiotics & gut", "regimes": ["US", "EU"],
+ "names": ["Live Cultures 20 Billion", "Advanced Gut Cultures 20 Billion CFU"],
+ "form": "capsule", "pack": "bottle", "counts": [30, 60], "count_is_net": False, "price_eur": [12.0, 28.0],
+ "dose": {"units": 1, "unit_word": "capsule", "directions": "Take 1 capsule daily with breakfast."},
+ "actives": [A("Live bacterial cultures (total)", 20, "billion CFU", None), A("Lactobacillus acidophilus", 8, "billion CFU", None),
+             A("Bifidobacterium animalis subsp. lactis", 6, "billion CFU", None), A("Lacticaseibacillus rhamnosus", 4, "billion CFU", None),
+             A("Bifidobacterium longum", 2, "billion CFU", None), A("Inulin (from chicory)", 50, "mg", None)],
+ "ingredients": [I("Bulking agent: microcrystalline cellulose", 200, "Microcrystalline cellulose"),
+                 I("Capsule shell: hydroxypropyl methylcellulose", 95, "Delayed-release vegetable capsule (hypromellose, gellan gum)"),
+                 I("Live bacterial cultures (L. acidophilus, B. lactis, L. rhamnosus, B. longum)", 80, "Probiotic blend (L. acidophilus, B. lactis, L. rhamnosus, B. longum)", True),
+                 I("Inulin (from chicory)", 50, "Chicory root inulin", True), I("Anti-caking agent: magnesium stearate", 3, "Magnesium stearate")],
+ "hero_ing": "Live bacterial cultures (L. acidophilus, B. lactis, L. rhamnosus, B. longum)",
+ "eu_claims": [],
+ "us_claims": ["Supports digestive health", "Helps maintain a healthy balance of gut flora", "Supports occasional bloating relief"],
+ "upgrade": ["Resets your gut in 3 days", "Boosts immunity by 70%"],
+ "selling": ["20 billion live cultures per capsule", "4 researched strains", "Delayed-release capsule", "Dairy-free and vegan"],
+ "exag_subtle": ["Ends bloating for good", "Flat tummy in a week"],
+ "exag_strong": ["Cures IBS and Crohn's", "Treats candida and leaky gut", "Prevents antibiotic-associated diarrhoea"],
+ "unsub": ["Clinically proven to survive stomach acid 100%", "Gastroenterologists' No.1 choice"],
+ "attr_tamper": "Pharmaceutical-grade medicinal strains",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for people who are immunocompromised or critically ill, or for children. Consult your doctor if pregnant.",
+ "pop_tamper": "Safe for newborns and people undergoing chemotherapy.",
+ "extra_warnings": ["Culture count guaranteed until the best-before date when stored as directed."],
+ "shelf": [18, "months"], "shelf_tamper": [36, "months"],
+ "storage": "Store below 25°C in a dry place; refrigeration recommended after opening.", "allergens": [],
+ "visual": "white bottle with mint-green label and gut-flora pattern"},
+{"id": "s_psyllium_fibre", "sub_category": "Fibre", "regimes": ["US", "EU"],
+ "names": ["Psyllium Husk Fibre Powder Orange", "Natural Fibre Complex with Psyllium & Inulin"],
+ "form": "powder", "pack": "tub", "counts": [250, 500], "count_is_net": True, "price_eur": [6.0, 15.0],
+ "dose": {"units": 1, "unit_word": "scoop (6 g)", "directions": "Stir 1 scoop (6 g) into at least 250 ml water and drink immediately, once daily."},
+ "actives": [A("Psyllium husk", 5000, "mg", None), A("Chicory inulin", 800, "mg", None)],
+ "ingredients": [I("Psyllium husk powder (Plantago ovata)", 5000, "Psyllium husk powder", True), I("Inulin (from chicory)", 800, "Chicory root inulin", True),
+                 I("Natural orange flavouring", 150, "Natural orange flavor"), I("Acid: citric acid", 40, "Citric acid"),
+                 I("Sweetener: steviol glycosides", 10, "Stevia leaf extract")],
+ "hero_ing": "Inulin (from chicory)",
+ "eu_claims": [],
+ "us_claims": ["Supports regularity", "Supports digestive health", "Helps you feel full"],
+ "upgrade": ["Detoxes your colon overnight", "Flushes out toxins and weight"],
+ "selling": ["Natural plant fibre", "Refreshing orange taste", "No added sugar", "Gluten-free"],
+ "exag_subtle": ["Flat stomach in days", "Cleans you out naturally"],
+ "exag_strong": ["Cures constipation and haemorrhoids", "Lowers cholesterol - replaces statins", "Prevents colon cancer"],
+ "unsub": ["Doctor-recommended detox", "Proven to remove 5 kg of waste"],
+ "attr_tamper": "Medicinal bulk laxative",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for children, people with swallowing difficulties or bowel obstruction.",
+ "pop_tamper": "Can be taken dry or before bed by anyone, including small children.",
+ "extra_warnings": ["Always take with at least 250 ml of water; taking without enough fluid may cause choking.",
+                    "Take other medicines 1 hour before or 2 hours after."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Keep tub tightly closed in a cool, dry place.", "allergens": [],
+ "visual": "orange tub with wheat-free badge and swirling fibre graphic"},
+]

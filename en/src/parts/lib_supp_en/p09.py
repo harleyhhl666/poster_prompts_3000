@@ -1,0 +1,63 @@
+def A(n, amt, unit, key=None, names=None):
+    d = {"n": n, "amt": amt, "unit": unit, "nrv_key": key}
+    if names is not None: d["names"] = names
+    return d
+def I(n, mg, us=None, active=False):
+    d = {"n": n, "mg": mg, "us": us or n}
+    if active: d["active"] = True
+    return d
+
+ITEMS = [
+{"id": "s_marine_collagen_powder", "sub_category": "Collagen & beauty", "regimes": ["US", "EU"],
+ "names": ["Marine Collagen 5000mg Powder with Vitamin C", "Marine Collagen Peptides + Hyaluronic Acid"],
+ "form": "powder", "pack": "pouch", "counts": [150, 300], "count_is_net": True, "price_eur": [18.0, 39.0],
+ "dose": {"units": 1, "unit_word": "scoop (5.1 g)", "directions": "Mix 1 level scoop (5.1 g) into 200 ml water, juice or a smoothie once daily."},
+ "actives": [A("Hydrolysed marine collagen peptides", 5000, "mg", None), A("Vitamin C (as L-ascorbic acid)", 80, "mg", "vitc"),
+             A("Hyaluronic acid (as sodium hyaluronate)", 50, "mg", None)],
+ "ingredients": [I("Hydrolysed marine collagen peptides (FISH - cod)", 5000, "Hydrolyzed marine collagen peptides (cod)", True),
+                 I("Vitamin C (L-ascorbic acid)", 80, "Ascorbic acid", True),
+                 I("Sodium hyaluronate", 50, "Sodium hyaluronate", True)],
+ "hero_ing": "Sodium hyaluronate",
+ "eu_claims": ["Vitamin C contributes to normal collagen formation for the normal function of skin",
+               "Vitamin C contributes to normal collagen formation for the normal function of bones",
+               "Vitamin C contributes to normal collagen formation for the normal function of cartilage"],
+ "us_claims": ["Supports skin hydration and elasticity", "Supports healthy hair and nails", "Supports joint comfort"],
+ "upgrade": ["Erases wrinkles from within", "Turns back your skin's clock by 10 years"],
+ "selling": ["Wild-caught cod skin collagen", "Unflavoured - dissolves instantly", "With vitamin C and hyaluronic acid", "Type I collagen peptides"],
+ "exag_subtle": ["Visibly younger skin in 4 weeks", "Smooths away fine lines"],
+ "exag_strong": ["Reverses skin ageing and cures cellulite", "Heals arthritic joints", "Rebuilds cartilage in osteoarthritis"],
+ "unsub": ["Clinically proven to reduce wrinkles by 50%", "Used by Hollywood dermatologists"],
+ "attr_tamper": "Pharmaceutical-grade injectable-quality collagen",
+ "suitable": "Adults",
+ "not_suitable": "Not suitable for people with a fish allergy, children, or during pregnancy and breastfeeding.",
+ "pop_tamper": "Suitable for everyone, including people with fish allergies.",
+ "extra_warnings": ["Contains fish. Not suitable for vegetarians or vegans."],
+ "shelf": [24, "months"], "shelf_tamper": [48, "months"],
+ "storage": "Reseal the pouch after use. Store in a cool, dry place.", "allergens": ["fish:cod"],
+ "visual": "matte white stand-up pouch with ocean-wave graphic and scoop"},
+{"id": "s_folic_acid_400", "sub_category": "Prenatal", "regimes": ["US", "EU"],
+ "names": ["Folic Acid 400µg", "Pregnancy Folic Acid 400µg Tablets"],
+ "form": "tablet", "pack": "blister box", "counts": [90], "count_is_net": False, "price_eur": [1.5, 5.0],
+ "dose": {"units": 1, "unit_word": "tablet", "directions": "Take 1 tablet daily with water, from planning pregnancy until week 12."},
+ "actives": [A("Folic acid", 400, "µg", "folate")],
+ "ingredients": [I("Lactose (MILK)", 75, "Lactose (milk)"), I("Bulking agent: microcrystalline cellulose", 40, "Microcrystalline cellulose"),
+                 I("Maize starch", 12, "Corn starch"), I("Anti-caking agent: magnesium stearate", 1, "Magnesium stearate"),
+                 I("Folic acid", 0.4, "Folic acid", True)],
+ "hero_ing": "Folic acid",
+ "eu_claims": ["Folate contributes to maternal tissue growth during pregnancy", "Folate has a role in the process of cell division",
+               "Folate contributes to normal blood formation"],
+ "us_claims": ["Supports a healthy pregnancy", "Supports healthy cell division"],
+ "upgrade": ["Guarantees a healthy baby", "Boosts fertility fast"],
+ "selling": ["400µg folic acid as recommended before and during early pregnancy", "Small, easy-to-swallow tablet", "3-month supply", "Pharmacy quality"],
+ "exag_subtle": ["Helps you get pregnant sooner", "Everything your baby needs"],
+ "exag_strong": ["Prevents all birth defects", "Cures infertility", "Prevents miscarriage"],
+ "unsub": ["Recommended by 99% of midwives", "Clinically proven to boost conception"],
+ "attr_tamper": "Prescription folic acid 5mg strength",
+ "suitable": "Women planning a pregnancy and up to the 12th week of pregnancy",
+ "not_suitable": "Not suitable for children. Women at higher risk may need a higher prescribed dose - ask your GP or midwife.",
+ "pop_tamper": "Take any number of tablets daily throughout pregnancy; also suitable for babies.",
+ "extra_warnings": ["Contains lactose (milk)."],
+ "shelf": [36, "months"], "shelf_tamper": [60, "months"],
+ "storage": "Store below 25°C in a dry place.", "allergens": ["milk"],
+ "visual": "lilac carton with mother silhouette, small white tablets in blister"},
+]
